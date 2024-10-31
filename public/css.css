@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: #1F1F1F;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
