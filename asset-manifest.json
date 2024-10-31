@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bet88-1/static/css/main.2c3b0d72.css",
+    "main.js": "/Bet88-1/static/js/main.c362c46d.js",
+    "index.html": "/Bet88-1/index.html",
+    "main.2c3b0d72.css.map": "/Bet88-1/static/css/main.2c3b0d72.css.map",
+    "main.c362c46d.js.map": "/Bet88-1/static/js/main.c362c46d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c3b0d72.css",
+    "static/js/main.c362c46d.js"
+  ]
+}
