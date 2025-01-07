@@ -15,9 +15,9 @@ import FAQAnimation from "../animations/FAQAnimation.js";
 import Footer from "../components/Footer.js";
 
 const Homepage = () => {
-  const blogCardRefs = usePopAnimation(); 
-  const promotionCardRefs = usePopAnimation(); 
-  const gamesCardRefs = usePopAnimation(); 
+  const blogCardRefs = usePopAnimation();
+  const promotionCardRefs = usePopAnimation();
+  const gamesCardRefs = usePopAnimation();
 
   return (
     <div>
@@ -26,12 +26,14 @@ const Homepage = () => {
       <section className="singleCompartment ptb60 plr5perc overflowXHorizontalHidden">
         <div className="compartmentStackedLayout mb60">
           <h1 className="heading1 colorPri pb30">
-            Bet88: Elevating Your Online Casino Experience in the Philippines
+            Bet88 - Trusted Online Casino and Sports Betting in Asia- PAGCOR
+            Licensed
           </h1>
+
           <div className="bgGlassMorphism p20 borderRadius1">
             <p className="descriptions textAlignmentLeft mb10 colorReg1">
               Nowadays, almost all things are on the internet and so too is
-              mobile gaming.
+              mobile gaming.{" "}
               <span className="fontWeightBold colorSec">Casino games</span> have
               recently skyrocketed in popularity in the Philippines since they
               offer users an easy and direct approach to playing casino games
@@ -73,7 +75,10 @@ const Homepage = () => {
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Bet88 stands out as the
-            <span className="fontWeightBold colorSec"> best online casino</span>
+            <span className="fontWeightBold colorSec">
+              {" "}
+              best online casino
+            </span>{" "}
             for Philippines players bringing together a virtual platform that
             captures both pleasure and accuracy. Bet88 however is not only well
             recognized for the vast games offered in the online casino, but more
@@ -83,7 +88,7 @@ const Homepage = () => {
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Bet88 doesn’t just give you that gaming experience on your device,
             but also makes you feel like you are in a live dealer casino where
-            you are dealt with by professional dealers for
+            you are dealt with by professional dealers for{" "}
             <span className="fontWeightBold colorSec">slot games</span>,
             baccarat, and even jackpot casino games. Bet88 provides a seamless
             betting journey with an easy-to-navigate interface and sleek

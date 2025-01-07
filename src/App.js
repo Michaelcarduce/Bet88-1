@@ -7,6 +7,8 @@ import Bingo from "./pages/Bingo.js";
 import FishingGames from "./pages/Fishing-Games.js";
 import Affiliate from "./pages/Affiliate.js";
 import Promotion from "./pages/Promotion.js";
+import Blogs from "./pages/Blogs.js";
+import BlogPosts from "./pages/BlogPosts.js";
 import NotFound from "./pages/404.js";
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path="/fishing-games" element={<FishingGames />} />
         <Route path="/affiliate" element={<Affiliate />} />
         <Route path="/promotion" element={<Promotion />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:slug" element={<BlogPosts />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

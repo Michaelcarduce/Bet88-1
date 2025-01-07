@@ -122,9 +122,7 @@
 
 // export default Header;
 
-
 //////////////////////
-
 
 // import React, { useState, useRef, useEffect } from "react";
 // import { Link, useLocation } from "react-router-dom";
@@ -260,10 +258,7 @@
 
 // export default Header;
 
-
-
 //////////////////////
-
 
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
@@ -300,8 +295,18 @@ const Header = () => {
   }, []);
 
   // Function to add 'active' class based on current route
-  const isActive = (path) => (location.pathname === path ? "active" : "");
-
+  // const isActive = (path) => (location.pathname === path ? "active" : "");
+  const isActive = (path) => {
+    if (path === "/blogs") {
+      // Correct path: "/blogs"
+      return location.pathname.startsWith("/blogs/") ||
+        location.pathname === "/blogs"
+        ? "active"
+        : ""; //Check if pathname is exactly /blogs
+    } else {
+      return location.pathname === path ? "active" : "";
+    }
+  };
   return (
     <header className="special-header" ref={headerRef}>
       <div className="navigation">
@@ -320,29 +325,25 @@ const Header = () => {
             <a
               href="https://facebook.com"
               target="_blank"
-              className="social-link"
-            >
+              className="social-link">
               <img src="/assets/socialicons1.png" alt="Bet88" title="Bet88" />
             </a>
             <a
               href="https://instagram.com"
               target="_blank"
-              className="social-link"
-            >
+              className="social-link">
               <img src="/assets/socialicons2.png" alt="Bet88" title="Bet88" />
             </a>
             <a
               href="https://telegram.com"
               target="_blank"
-              className="social-link"
-            >
+              className="social-link">
               <img src="/assets/socialicons3.png" alt="Bet88" title="Bet88" />
             </a>
             <a
               href="https://linkedin.com"
               target="_blank"
-              className="social-link"
-            >
+              className="social-link">
               <img src="/assets/socialicons4.png" alt="Bet88" title="Bet88" />
             </a>
           </div>
@@ -358,8 +359,7 @@ const Header = () => {
         <div
           id="nav-icon"
           className={menuActive ? "active" : ""}
-          onClick={toggleMenu}
-        >
+          onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>
@@ -367,8 +367,7 @@ const Header = () => {
       </div>
       <div className={`navigation2 ${menuActive ? "active" : ""}`}>
         <div
-          className={`alignment navigationlinks ${menuActive ? "active" : ""}`}
-        >
+          className={`alignment navigationlinks ${menuActive ? "active" : ""}`}>
           <nav>
             <ul className={`nav-menu topnav ${menuActive ? "active" : ""}`}>
               <li className={isActive("/")}>
@@ -404,6 +403,11 @@ const Header = () => {
               <li className={isActive("/promotion")}>
                 <Link to="/promotion" onClick={closeMenuOnLinkClick}>
                   PROMOTION
+                </Link>
+              </li>
+              <li className={isActive("/blogs")}>
+                <Link to="/blogs" onClick={closeMenuOnLinkClick}>
+                  BLOGS
                 </Link>
               </li>
             </ul>

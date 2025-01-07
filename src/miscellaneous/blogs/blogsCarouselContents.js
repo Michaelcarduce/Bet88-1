@@ -1,31 +1,39 @@
-
 const blogs = [
   {
     id: 1,
-    title: "Banglabet88 – Setting New Online Gaming Standards",
-    link: "/blogs",
-    buttonText: "Read more",
+    title: "First Blog Title Sample Only For Testing and Building Purposes ",
     description:
       "Becoming unconventional in online commercial gaming industry is tantamount to bravery for taking a different path where others do not dare to go...",
-    image: "/assets/blog2.jpg",
-  },
-  {
-    id: 2,
-    title: "IndiBet Bangladesh Review & In-Depth Analysis",
-    link: "/blogs",
+    slug: "blog-title-slug",
     buttonText: "Read more",
-    description:
-      "Bangladeshi gamers are taking notice of IndiBet, a rising star in the online gambling industry. IndiBet has quickly developed a devoted fan base in...",
-    image: "/assets/blog1.jpg",
-  },
-  {
-    id: 3,
-    title: "CricBaba Bangladesh Review & In-Depth Analysis",
-    link: "/blogs",
-    buttonText: "Read more",
-    description:
-      "Sports fans now look to internet sites like CricBaba Bangladesh for real-time updates, analysis, and interaction. These have become indispensable...",
-    image: "/assets/blog3.jpg",
+    link: "/blogs/blog-title-slug",
+    image: "/assets/blogbanner1.jpg",
+    Author: "Betso88 Writer",
+    Date: "January 4, 2024",
+    content: `
+      <p class="descriptions colorRegShadow textAlignmentLeft"><a class="colorPri" href="https://example.com" target="_blank">Banglabet88</a> has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+      <div class="bonusButtonContainer"></div>
+      <h2 class="heading2 textAlignmentLeft colorSec">Heading2</h2>
+      <picture class="img_fit mtb20">
+        <source media="(min-width: 768px)" srcSet="/assets/blog1.jpg" />
+        <img src="/assets/blog1.jpg" alt={blog.title} class="imageBlogSub" />
+      </picture>
+      <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+      <ul class="mlr20">
+        <li>
+          <h3 class="heading3 textAlignmentLeft colorSec">Heading3</h3>
+          <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+          <ul class="mlr20">
+            <li>
+              <h4 class="heading4 textAlignmentLeft colorSec">Heading4</h4>
+              <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+        <div class="bonusButtonContainer"></div>
+
+    `,
   },
 ];
 
