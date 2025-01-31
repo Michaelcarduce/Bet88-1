@@ -31,7 +31,7 @@ const bingo = [
     id: 5,
     title: "Free Bingo",
     description:
-      "Want to play bingo without having to choose the type that calls for a bet? At Bet88, there is Free Bingo which means you can play bingo, and get a chance to win real cash without staking any money. A lot of people prefer using it as a learning tool in order to find out more about the software and hone their abilities before risking real cash on it.",
+      "Want to play bingo without having to choose the type that calls for a bet? At Panalobet, there is Free Bingo which means you can play bingo, and get a chance to win real cash without staking any money. A lot of people prefer using it as a learning tool in order to find out more about the software and hone their abilities before risking real cash on it.",
     image: "/assets/slots1.jpg",
   },
 ];

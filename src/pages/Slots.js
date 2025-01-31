@@ -13,8 +13,8 @@ import FAQAnimation from "../animations/FAQAnimation.js";
 import Footer from "../components/Footer.js";
 
 const Slots = () => {
-  const promotionCardRefs = usePopAnimation(); 
-  const tablesCardRefs = usePopAnimation(); 
+  const promotionCardRefs = usePopAnimation();
+  const tablesCardRefs = usePopAnimation();
 
   return (
     <div>
@@ -78,17 +78,17 @@ const Slots = () => {
             This is for the ego that you get to play privileged access to
             premium online casino games and these offer higher jackpots and
             higher limits. GAME lovers using{" "}
-            <span className="fontWeightBold colorSec">Bet88 Casino</span> will
-            be privileged to find a special package of high-limit slots that
-            enhances their gaming experience.
+            <span className="fontWeightBold colorSec">Panalobet Casino</span>{" "}
+            will be privileged to find a special package of high-limit slots
+            that enhances their gaming experience.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             Get the best and specific services, bonuses, and more which are
             planned and made for these types of selected customers. These
             casinos offer an unmatched kind of class and glamor, catering to the
             high-end entertainment and rewards market. Believing that excitement
-            and money can go hand in hand, Bet88 makes sure that your high-limit
-            gaming experience is exuberating.
+            and money can go hand in hand, Panalobet makes sure that your
+            high-limit gaming experience is exuberating.
           </p>
           <h3 className="heading3 colorTer pb30">
             Don’t Miss Out: Best High-Limit Casino Slots for 2024
@@ -132,8 +132,8 @@ const Slots = () => {
             through this exciting experience.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
-            Step up to the highest level of thrill and richness at Bet88 – your
-            paradise of high limit casino slot games.
+            Step up to the highest level of thrill and richness at Panalobet –
+            your paradise of high limit casino slot games.
           </p>
 
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
@@ -142,29 +142,29 @@ const Slots = () => {
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Enjoyment and the possible gains are two of the many benefits that
-            one gets whenever he or she plays slots at an online casino. Bet88
-            is all about offering a large collection of online games you could
-            ever trace that suit different needs you might have. Smooth gameplay
-            and interesting subjects make a player immersed in rather
-            fascinating and detailed environments. As you will find out, these
-            slots have a rich theme selection ranging from the traditional to
-            the revolutionary.
+            one gets whenever he or she plays slots at an online casino.
+            Panalobet is all about offering a large collection of online games
+            you could ever trace that suit different needs you might have.
+            Smooth gameplay and interesting subjects make a player immersed in
+            rather fascinating and detailed environments. As you will find out,
+            these slots have a rich theme selection ranging from the traditional
+            to the revolutionary.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Furthermore, there is entertainment mixed with the possibility of
-            earning big money with Bet88. In as much as luck governs your
+            earning big money with Panalobet. In as much as luck governs your
             earnings, mathematics works hand in hand to determine the winnings’
             probabilities.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
-            At Bet88, players can find different varieties of{" "}
+            At Panalobet, players can find different varieties of{" "}
             <span className="fontWeightBold colorSec">online casino slots</span>{" "}
             with different options regarding the offers and odds of paybacks.
             Moreover, every spin gives an opportunity to a win, making the
-            gaming experience at Bet88 engaging for both new bettors and those,
-            who are no new to online casinos. Register at Bet88 today and enjoy
-            online slots that are much more exciting the way you have never
-            imagined them to be.
+            gaming experience at Panalobet engaging for both new bettors and
+            those, who are no new to online casinos. Register at Panalobet today
+            and enjoy online slots that are much more exciting the way you have
+            never imagined them to be.
           </p>
 
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
@@ -175,21 +175,21 @@ const Slots = () => {
             Mobile casino slot players know how important it is to select a
             reliable online casino when enjoying the games in the Philippines.
             Speaking of legal and safe online gambling, there are more reputable
-            casino sites, for example, Bet88. It is regulated by an efficient
-            gaming license from international bodies such as Curacao and
-            guarantees safe playing ground. It is only provided to the
+            casino sites, for example, Panalobet. It is regulated by an
+            efficient gaming license from international bodies such as Curacao
+            and guarantees safe playing ground. It is only provided to the
             legitimate and trustworthy online casinos that ensure that it
             functions within the legal requirements.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             Players need to be careful and select their preferred platforms very
             wisely because fraud cases in the online world are increasing
-            especially in gaming. Such commitment is exemplified at Bet88
+            especially in gaming. Such commitment is exemplified at Panalobet
             because the website employs State of the art encryption and
-            authentication methods to protect player information. Bet88 provides
-            the players with online casino games and online slots, and with the
-            best interest in the player’s security, the players get to play
-            their favorite games with so much convenience.
+            authentication methods to protect player information. Panalobet
+            provides the players with online casino games and online slots, and
+            with the best interest in the player’s security, the players get to
+            play their favorite games with so much convenience.
           </p>
 
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
@@ -198,25 +198,25 @@ const Slots = () => {
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Start discovering the atmosphere of online casino slot games for
-            real money at Bet88 – one of the most popular platforms for
+            real money at Panalobet – one of the most popular platforms for
             enthusiasts. About the{" "}
             <span className="fontWeightBold colorSec">
               Philippine casino online
             </span>{" "}
             – The best online casino in the Philippines has a great choice of
-            slots with different topics and interesting actions. Bet88 is the
-            best platform that will help players spin the reels and spend time
-            with maximum entertainment with some chances to make a good amount
-            of money.
+            slots with different topics and interesting actions. Panalobet is
+            the best platform that will help players spin the reels and spend
+            time with maximum entertainment with some chances to make a good
+            amount of money.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             It has never been easier to play casino slots with actual money from
             the comfort of one’s own home, especially when properly optimized
             for mobile devices and secure methods of payment such as GCash.
-            Bet88 makes it very easy for players to bet, win, and withdraw their
-            winnings with ease. Go and check out the incredible and splendid
-            world of online Slots now, and play with the best legit online
-            casino in the Philippines.
+            Panalobet makes it very easy for players to bet, win, and withdraw
+            their winnings with ease. Go and check out the incredible and
+            splendid world of online Slots now, and play with the best legit
+            online casino in the Philippines.
           </p>
 
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
@@ -228,20 +228,21 @@ const Slots = () => {
             change since it seeks to modernize everything. Mobile casino slots
             are slowly gaining a place in the world of online casinos as a
             preferred method of entertainment. This trend has been embraced by
-            sites such as Bet88 offering the players exciting and smooth options
-            of playing casino through their handheld devices.
+            sites such as Panalobet offering the players exciting and smooth
+            options of playing casino through their handheld devices.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1">
-            Bet88 mobile has an enhanced variety of{" "}
+            Panalobet mobile has an enhanced variety of{" "}
             <span className="fontWeightBold colorSec">
               casino slot machines
             </span>{" "}
             with great graphics, themes, and huge payouts. Whether you prefer
-            traditional 3-reel slots or advanced 5-reel video options, Bet88
+            traditional 3-reel slots or advanced 5-reel video options, Panalobet
             offers you the extraordinary feeling of a real casino online. Make
-            Bet88 your haven when it comes to playing slot games; our site will
-            provide easy and convenient access to the best online casino real
-            money games in the Philippines accessible at any time and place.
+            Panalobet your haven when it comes to playing slot games; our site
+            will provide easy and convenient access to the best online casino
+            real money games in the Philippines accessible at any time and
+            place.
           </p>
         </div>
       </section>
@@ -256,10 +257,10 @@ const Slots = () => {
               There are many slots reels and symbols available when you select
               the internet{" "}
               <span className="fontWeightBold colorSec">casino sites</span> like
-              Bet88 for playing, especially in the Philippines and these symbols
-              are used to dictate the final results of the games. Knowledge of
-              these factors is crucial to improving gameplay and subsequently
-              raising the probability of success.
+              Panalobet for playing, especially in the Philippines and these
+              symbols are used to dictate the final results of the games.
+              Knowledge of these factors is crucial to improving gameplay and
+              subsequently raising the probability of success.
             </p>
           </div>
 
@@ -310,8 +311,8 @@ const Slots = () => {
                   />
                   <img
                     src="/assets/slotImage1.png"
-                    alt="Bet88"
-                    title="Bet88"
+                    alt="Panalobet"
+                    title="Panalobet"
                     class="img_fit"
                   />
                 </picture>
@@ -414,8 +415,8 @@ const Slots = () => {
                   />
                   <img
                     src="/assets/slotImage1.png"
-                    alt="Bet88"
-                    title="Bet88"
+                    alt="Panalobet"
+                    title="Panalobet"
                     class="img_fit"
                   />
                 </picture>
@@ -475,8 +476,8 @@ const Slots = () => {
                   />
                   <img
                     src="/assets/slotImage1.png"
-                    alt="Bet88"
-                    title="Bet88"
+                    alt="Panalobet"
+                    title="Panalobet"
                     class="img_fit"
                   />
                 </picture>
@@ -500,48 +501,50 @@ const Slots = () => {
             </p>
             <p className="descriptions textAlignmentLeft colorReg1 pb30">
               Learn more about the choices of{" "}
-              <span className="fontWeightBold colorSec">slots on Bet88</span>{" "}
+              <span className="fontWeightBold colorSec">
+                slots on Panalobet
+              </span>{" "}
               and enjoy luck and skill combined in a game. Welcome to the realm
               of reels as well as symbols – it is possible to hit the greatest
               prize with the following spin!
             </p>
 
             <h2 className="heading2 textAlignmentLeft colorSec pb30">
-              Why Bet88 Casino is the Best Choice for Online Slots
+              Why Panalobet Casino is the Best Choice for Online Slots
             </h2>
             <p className="descriptions textAlignmentLeft colorReg1 pb30">
-              Bet88 Casino is the best platform to play{" "}
+              Panalobet Casino is the best platform to play{" "}
               <span className="fontWeightBold colorSec">
                 online casino slots
               </span>{" "}
               since it provides players with an exceptional experience as they
-              play these games and win good cash. Bet88 Casino has launched its
-              operations with an official Curacao license and guarantees a safe
-              space for entertainment. It presents a vast list of{" "}
+              play these games and win good cash. Panalobet Casino has launched
+              its operations with an official Curacao license and guarantees a
+              safe space for entertainment. It presents a vast list of{" "}
               <span className="fontWeightBold colorSec">online slots</span> so
               that every slot has the potential to produce massive wins. By
-              specially designed navigation panel, the Bet88 Casino provides its
-              users with easy and comfortable access to ultimate excitement and
-              high payoffs. Head to the most exciting Bet88 Casino, where fun
-              and security of the online slot are guaranteed.
+              specially designed navigation panel, the Panalobet Casino provides
+              its users with easy and comfortable access to ultimate excitement
+              and high payoffs. Head to the most exciting Panalobet Casino,
+              where fun and security of the online slot are guaranteed.
             </p>
 
             <h2 className="heading2 textAlignmentLeft colorSec pb30">
-              Top Casino Online Slots at Bet88 Casino: Spin to Win Big!
+              Top Casino Online Slots at Panalobet Casino: Spin to Win Big!
             </h2>
             <p className="descriptions textAlignmentLeft colorReg1">
-              Bet88 Casino will offer an unparalleled slot gaming experience by
-              providing a variety of slot games that capture the theme or
+              Panalobet Casino will offer an unparalleled slot gaming experience
+              by providing a variety of slot games that capture the theme or
               subject matter that players can simply enjoy. If you are keen on
               traditional slot games or the new generation ones; either way, you
-              will be pleased with Bet88 Casino, promising uninterrupted
+              will be pleased with Panalobet Casino, promising uninterrupted
               entertainment and sessions full of monetary rewards. By
               integrating the best possible technologies and sleek interface,
               the platform brings the best to your gaming while making the
               process as easy and efficient as possible from the starting point
               to the finish line. If you want to join a new online slots casino
-              and enjoy a great overall experience, Bet88 Casino is prepared to
-              offer you this and much more.
+              and enjoy a great overall experience, Panalobet Casino is prepared
+              to offer you this and much more.
             </p>
           </div>
 
@@ -549,7 +552,7 @@ const Slots = () => {
             <div className="compartmentStackedLayout">
               <div className="compartmentStackedLayoutLeft">
                 <h2 className="heading2 textAlignmentLeft colorSec pb30">
-                  Immerse Yourself in Exciting Slot Games at Bet88 Casino
+                  Immerse Yourself in Exciting Slot Games at Panalobet Casino
                 </h2>
               </div>
               <div className="compartmentStackedLayout pb30">
@@ -560,7 +563,7 @@ const Slots = () => {
                         JILI BOXING:
                       </span>{" "}
                       Meet JILI BOXING – one of the most interesting online
-                      slots at the Bet88 Casino suite. Each spin takes the
+                      slots at the Panalobet Casino suite. Each spin takes the
                       action of the battle to your desktop, with symbols that
                       combine for hard knockout wins.
                     </p>
@@ -587,7 +590,7 @@ const Slots = () => {
                       <span className="fontWeightBold colorSec">
                         DANCING MONKEYS:
                       </span>{" "}
-                      Bet88casino playing the reels spin with the help of
+                      Panalobetcasino playing the reels spin with the help of
                       DANCING MONKEYS makes this slot quite lively and cheerful.
                       This is because it is unusual to come across characters
                       and songs, hence making it unique from other online slot
@@ -603,16 +606,16 @@ const Slots = () => {
                         PG ASGARDIAN RISING:
                       </span>{" "}
                       Take a trip to ancient Gods and warriors with PG ASGARDIAN
-                      RISING. The elements in this amazing slot game at Bet88
-                      Casino include large bonuses, familiar myths of the Norse
-                      gods.
+                      RISING. The elements in this amazing slot game at
+                      Panalobet Casino include large bonuses, familiar myths of
+                      the Norse gods.
                     </p>
                   </div>
                 </SlideAnimation>
               </div>
               <div className="compartmentStackedLayoutLeft">
                 <p className="descriptions textAlignmentLeft colorReg1">
-                  Bet88 Casino ensures players have an unforgettable time
+                  Panalobet Casino ensures players have an unforgettable time
                   playing online slots through their excellent games, bonuses,
                   and interface design. In the level 1 of the game get ready for
                   the prime action today and get the thrill of winning big.
@@ -628,8 +631,8 @@ const Slots = () => {
                   />
                   <img
                     src="/assets/slotImage1.png"
-                    alt="Bet88"
-                    title="Bet88"
+                    alt="Panalobet"
+                    title="Panalobet"
                     class="img_fit"
                   />
                 </picture>
@@ -639,16 +642,16 @@ const Slots = () => {
 
           <div className="compartmentStackedLayoutLeft">
             <h2 className="heading2 textAlignmentLeft colorSec pb30">
-              Bet88 Casino: Your Guide to Trusted Payment Options
+              Panalobet Casino: Your Guide to Trusted Payment Options
             </h2>
             <p className="descriptions textAlignmentLeft colorReg1 pb30">
-              Bet88 Casino offers a safe environment to make payments as it
+              Panalobet Casino offers a safe environment to make payments as it
               supports multiple mediums of payment through which you can
               continue playing your favorite games. Using your credit cards,
               e-wallets like GCash or direct bank transfers — everything is
-              straightforward and safe with their platform. Bet88 ensures the
-              safety of your money through high encryption technology, allowing
-              you to game{" "}
+              straightforward and safe with their platform. Panalobet ensures
+              the safety of your money through high encryption technology,
+              allowing you to game{" "}
               <span className="fontWeightBold colorSec">
                 online casino games
               </span>{" "}
@@ -658,34 +661,34 @@ const Slots = () => {
             </p>
 
             <h2 className="heading2 textAlignmentLeft colorSec pb30">
-              Trust and Transparency: Security & Fair Gaming at Bet88 Casino
+              Trust and Transparency: Security & Fair Gaming at Panalobet Casino
             </h2>
             <p className="descriptions textAlignmentLeft colorReg1 pb30">
-              The Bet88 Casino provides users with the best and secure
+              The Panalobet Casino provides users with the best and secure
               experience of gambling on their site. Currently, it adopts complex
               encryption techniques to ensure that both personal and financial
-              details remain safe in the web casino platform. Currently, Bet88
-              is legal to operate in Curacao and the site has been licensed thus
-              guaranteeing players a fair play. A random number generator is
-              used to ensure all the spins are conducted randomly minimizing
-              objectivity, thus affording the gaming experience transparency.
-              Gamblers can remain assured that if they choose to gamble at Bet88
-              Casino, they will be dealing with an honest supplier of secure and
-              respected online gambling services.
+              details remain safe in the web casino platform. Currently,
+              Panalobet is legal to operate in Curacao and the site has been
+              licensed thus guaranteeing players a fair play. A random number
+              generator is used to ensure all the spins are conducted randomly
+              minimizing objectivity, thus affording the gaming experience
+              transparency. Gamblers can remain assured that if they choose to
+              gamble at Panalobet Casino, they will be dealing with an honest
+              supplier of secure and respected online gambling services.
             </p>
 
             <h2 className="heading2 textAlignmentLeft colorSec pb30">
-              Bet88 Casino Slots: Meet Our Top Game Providers
+              Panalobet Casino Slots: Meet Our Top Game Providers
             </h2>
             <p className="descriptions textAlignmentLeft colorReg1 pb30">
               Many{" "}
               <span className="fontWeightBold colorSec">
                 online casino slots
               </span>{" "}
-              can be played at Bet88 Casino since they include the best software
-              providers on the market. Microgaming, NetEnt, and Play’n GO are
-              company partners of Bet88 that guarantee players play the best
-              games with the highest quality graphics and features. The
+              can be played at Panalobet Casino since they include the best
+              software providers on the market. Microgaming, NetEnt, and Play’n
+              GO are company partners of Panalobet that guarantee players play
+              the best games with the highest quality graphics and features. The
               selection of games includes everything from conventional slots to
               advanced video slots, which must underpin the platform’s desire to
               provide the finest possible gaming experience. What it means is
@@ -694,26 +697,27 @@ const Slots = () => {
             </p>
 
             <h2 className="heading2 textAlignmentLeft colorSec pb30">
-              Getting Started at Bet88 Casino: Easy Registration & Deposit Guide
+              Getting Started at Panalobet Casino: Easy Registration & Deposit
+              Guide
             </h2>
             <p className="descriptions textAlignmentLeft colorReg1 pb10">
-              It is very easy to start at Bet88 Casino and it takes a few simple
-              steps. It does not take players a lot of time before they can
-              register with these websites, all they need to do is to provide
-              some of their personal details. During sign up, customers are
-              encouraged to make deposits using safe methods like credit cards,
-              GCASH, and the like or through bank transfers. The layout of the
-              website is as easy to use as it gets when it comes to finding your
-              way around the site and once the deposit has been completed, the
-              player has numerous opportunities waiting for them in the gambling
-              offer of Bet88.
+              It is very easy to start at Panalobet Casino and it takes a few
+              simple steps. It does not take players a lot of time before they
+              can register with these websites, all they need to do is to
+              provide some of their personal details. During sign up, customers
+              are encouraged to make deposits using safe methods like credit
+              cards, GCASH, and the like or through bank transfers. The layout
+              of the website is as easy to use as it gets when it comes to
+              finding your way around the site and once the deposit has been
+              completed, the player has numerous opportunities waiting for them
+              in the gambling offer of Panalobet.
             </p>
             <p className="descriptions textAlignmentLeft colorReg1">
-              Bet88 can be considered as one of the many{" "}
+              Panalobet can be considered as one of the many{" "}
               <span className="fontWeightBold colorSec">online casinos</span>,
               but it is necessary to point out that the service provides a lot
               more than games. Whether you’re a high-stakes slot player or if
-              you’re searching for enormous bonuses, Bet88 Casino is where
+              you’re searching for enormous bonuses, Panalobet Casino is where
               quality and excitement converge. Don’t wait any longer start your
               gaming experience now and discover the world of online casinos at
               their utmost best.
@@ -743,8 +747,8 @@ const Slots = () => {
               answer="High-limit slots can be paid in higher denominations than regularly paid slots, but they consist of higher risk. However, the rewards can be really generous and the player should always remember about his bankroll and spend money wisely."
             />
             <FAQAnimation
-              question="Is Bet88 a trusted source for high-limit slots?"
-              answer="Yes, Bet88 is a popular online casino that provides a large amount of high-limit slots and other games for Filipino players."
+              question="Is Panalobet a trusted source for high-limit slots?"
+              answer="Yes, Panalobet is a popular online casino that provides a large amount of high-limit slots and other games for Filipino players."
             />
           </div>
         </div>

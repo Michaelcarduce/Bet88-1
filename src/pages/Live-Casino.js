@@ -10,8 +10,8 @@ import usePopAnimation from "../hooks/usePopAnimation.js";
 import Footer from "../components/Footer.js";
 
 const LiveCasino = () => {
-  const promotionCardRefs = usePopAnimation(); 
-  const tablesCardRefs = usePopAnimation(); 
+  const promotionCardRefs = usePopAnimation();
+  const tablesCardRefs = usePopAnimation();
 
   return (
     <div>
@@ -53,7 +53,7 @@ const LiveCasino = () => {
               </span>
               ! Virtual gaming and betting to get a higher level of thrill and
               easy to access in the year 2024. Among all online Gaming platforms
-              available, Bet88 is without a doubt ranked in the league of
+              available, Panalobet is without a doubt ranked in the league of
               extraordinary platforms that would provide{" "}
               <span className="fontWeightBold colorSec">Filipino gamers</span>{" "}
               with the ultimate gaming experience.
@@ -61,19 +61,19 @@ const LiveCasino = () => {
             <p className="descriptions textAlignmentLeft mb10 colorReg1">
               Depending on one’s experience in using{" "}
               <span className="fontWeightBold colorSec">live casino sites</span>
-              , Bet88 has a lively and colorful user interface that both
-              existing and future users will love to use. The software Bet88
+              , Panalobet has a lively and colorful user interface that both
+              existing and future users will love to use. The software Panalobet
               covers a wide range of offered games and includes such as virtual
               table games, slot games, and more, which provide a breath-taking
               and captivating base of the real casino.
             </p>
             <p className="descriptions textAlignmentLeft mb10 colorReg1">
-              Bet88 continues on its run as one of the key players in the online
-              gaming genre as it gives players the chance to safely play their
-              favorite casino games. For anyone wanting the glamor of casino
-              entertainment from the comfort of their own home then Bet88 is the
-              go-to platform for the easiest of accesses and the ethos of
-              protecting against problem gambling.
+              Panalobet continues on its run as one of the key players in the
+              online gaming genre as it gives players the chance to safely play
+              their favorite casino games. For anyone wanting the glamor of
+              casino entertainment from the comfort of their own home then
+              Panalobet is the go-to platform for the easiest of accesses and
+              the ethos of protecting against problem gambling.
             </p>
             <p className="descriptions textAlignmentLeft colorReg1">
               Here, we’ll present the most significant{" "}
@@ -84,7 +84,7 @@ const LiveCasino = () => {
               satisfaction. In this regard, we give you detailed information on
               where to play so that every gamer in the Philippines can have a
               great time gaming. This includes the following stunning products
-              provided by Bet88 together with other great platforms.
+              provided by Panalobet together with other great platforms.
             </p>
           </div>
         </div>
@@ -131,12 +131,12 @@ const LiveCasino = () => {
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Thus, creating new forms of gaming possibilities, the fresh pělace
             in the rich humanity context, there appeared the{" "}
-            <span className="fontWeightBold colorSec">Bet88 Casino</span>.
+            <span className="fontWeightBold colorSec">Panalobet Casino</span>.
             Punters in the Philippines can now access an almost exhaustive list
             of games and betting solutions through this innovative solution.
             Thus, making the currently available best online casino game
             experience through devices much easier, more comfortable, and more
-            convenient, is made possible by Bet88.
+            convenient, is made possible by Panalobet.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             This transition from traditional brick-and-mortar casinos to the
@@ -144,7 +144,7 @@ const LiveCasino = () => {
             <span className="fontWeightBold colorSec">
               Philippine online casinos
             </span>
-            , exemplified by Bet88, showcases the industry's continuous
+            , exemplified by Panalobet, showcases the industry's continuous
             evolution and adaptability.
           </p>
 
@@ -156,7 +156,7 @@ const LiveCasino = () => {
             industry in the Philippines and have the potential to redefine the
             industry. With the availability of smartphones and a high internet
             connection, it has become possible to download and have a perfect
-            casino application on mobile devices. Bet88 Casino has fully
+            casino application on mobile devices. Panalobet Casino has fully
             supported this trend by providing various gambling games that entail
             real money to the players thereby making sure that all the players
             have everything that they need in the casino games.
@@ -167,8 +167,8 @@ const LiveCasino = () => {
             that has benefited the lovers of online casino slots and tables.
             Mobile gaming in real money casinos has been made more enjoyable
             through advanced technology, as well as well-designed interfaces
-            within brands such as Bet88. It establishes a great shift towards
-            the future development of the casino industry, continues its
+            within brands such as Panalobet. It establishes a great shift
+            towards the future development of the casino industry, continues its
             evolution, and moves toward a digital class of entertainment where
             players do not have to worry about online casino free bonuses or
             online casino free sign-up bonuses.
@@ -185,7 +185,7 @@ const LiveCasino = () => {
             </span>{" "}
             has gradually opened, and people can play offshore casino games more
             often. Some alternatives to a full range of legal and diverse
-            entertainment for enthusiasts are still available, such as Bet88
+            entertainment for enthusiasts are still available, such as Panalobet
             Casino, which emerges as a way for fans to face the restricted local
             laws. Offshore casinos offer participants a long list of activities,
             including slots, tables, and other gambling types meeting the rules
@@ -195,7 +195,7 @@ const LiveCasino = () => {
             Of course, one of the greatest benefits of operating offshore
             platforms is that they do not violate any international gaming laws
             that are designed to protect all game enthusiasts. Having adopted
-            this structure, the Bet88 Casino ensures that the players can
+            this structure, the Panalobet Casino ensures that the players can
             effectively engage themselves in a wide range of{" "}
             <span className="fontWeightBold colorSec">online casino games</span>{" "}
             that comply with the legal aspect of the country’s laws. As it will

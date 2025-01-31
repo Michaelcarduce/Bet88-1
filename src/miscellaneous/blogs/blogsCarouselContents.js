@@ -11,22 +11,22 @@ const blogs = [
     Author: "Betso88 Writer",
     Date: "January 4, 2024",
     content: `
-      <p class="descriptions colorRegShadow textAlignmentLeft"><a class="colorPri" href="https://example.com" target="_blank">Banglabet88</a> has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+      <p class="descriptions colorRegShadow textAlignmentLeft"><a class="colorPri" href="https://example.com" target="_blank">Panalobet</a> has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer </p>
       <div class="bonusButtonContainer"></div>
       <h2 class="heading2 textAlignmentLeft colorSec">Heading2</h2>
       <picture class="img_fit mtb20">
         <source media="(min-width: 768px)" srcSet="/assets/blog1.jpg" />
         <img src="/assets/blog1.jpg" alt={blog.title} class="imageBlogSub" />
       </picture>
-      <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+      <p class="descriptions colorRegShadow textAlignmentLeft">Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer </p>
       <ul class="mlr20">
         <li>
           <h3 class="heading3 textAlignmentLeft colorSec">Heading3</h3>
-          <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+          <p class="descriptions colorRegShadow textAlignmentLeft">Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer </p>
           <ul class="mlr20">
             <li>
               <h4 class="heading4 textAlignmentLeft colorSec">Heading4</h4>
-              <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+              <p class="descriptions colorRegShadow textAlignmentLeft">Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer Panalobet has become a trailblazer </p>
             </li>
           </ul>
         </li>

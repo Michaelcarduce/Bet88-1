@@ -46,28 +46,28 @@
 //               target="_blank"
 //               className="social-link"
 //             >
-//               <img src="/assets/socialicons1.png" alt="Bet88" title="Bet88" />
+//               <img src="/assets/socialicons1.png" alt="Panalobet" title="Panalobet" />
 //             </a>
 //             <a
 //               href="https://instagram.com"
 //               target="_blank"
 //               className="social-link"
 //             >
-//               <img src="/assets/socialicons2.png" alt="Bet88" title="Bet88" />
+//               <img src="/assets/socialicons2.png" alt="Panalobet" title="Panalobet" />
 //             </a>
 //             <a
 //               href="https://telegram.com"
 //               target="_blank"
 //               className="social-link"
 //             >
-//               <img src="/assets/socialicons3.png" alt="Bet88" title="Bet88" />
+//               <img src="/assets/socialicons3.png" alt="Panalobet" title="Panalobet" />
 //             </a>
 //             <a
 //               href="https://linkedin.com"
 //               target="_blank"
 //               className="social-link"
 //             >
-//               <img src="/assets/socialicons4.png" alt="Bet88" title="Bet88" />
+//               <img src="/assets/socialicons4.png" alt="Panalobet" title="Panalobet" />
 //             </a>
 //           </div>
 //           <div className="alignment gap20">
@@ -176,28 +176,28 @@
 //               target="_blank"
 //               className="social-link"
 //             >
-//               <img src="/assets/socialicons1.png" alt="Bet88" title="Bet88" />
+//               <img src="/assets/socialicons1.png" alt="Panalobet" title="Panalobet" />
 //             </a>
 //             <a
 //               href="https://instagram.com"
 //               target="_blank"
 //               className="social-link"
 //             >
-//               <img src="/assets/socialicons2.png" alt="Bet88" title="Bet88" />
+//               <img src="/assets/socialicons2.png" alt="Panalobet" title="Panalobet" />
 //             </a>
 //             <a
 //               href="https://telegram.com"
 //               target="_blank"
 //               className="social-link"
 //             >
-//               <img src="/assets/socialicons3.png" alt="Bet88" title="Bet88" />
+//               <img src="/assets/socialicons3.png" alt="Panalobet" title="Panalobet" />
 //             </a>
 //             <a
 //               href="https://linkedin.com"
 //               target="_blank"
 //               className="social-link"
 //             >
-//               <img src="/assets/socialicons4.png" alt="Bet88" title="Bet88" />
+//               <img src="/assets/socialicons4.png" alt="Panalobet" title="Panalobet" />
 //             </a>
 //           </div>
 //           <div className="alignment gap20">
@@ -326,25 +326,41 @@ const Header = () => {
               href="https://facebook.com"
               target="_blank"
               className="social-link">
-              <img src="/assets/socialicons1.png" alt="Bet88" title="Bet88" />
+              <img
+                src="/assets/socialicons1.png"
+                alt="Panalobet"
+                title="Panalobet"
+              />
             </a>
             <a
               href="https://instagram.com"
               target="_blank"
               className="social-link">
-              <img src="/assets/socialicons2.png" alt="Bet88" title="Bet88" />
+              <img
+                src="/assets/socialicons2.png"
+                alt="Panalobet"
+                title="Panalobet"
+              />
             </a>
             <a
               href="https://telegram.com"
               target="_blank"
               className="social-link">
-              <img src="/assets/socialicons3.png" alt="Bet88" title="Bet88" />
+              <img
+                src="/assets/socialicons3.png"
+                alt="Panalobet"
+                title="Panalobet"
+              />
             </a>
             <a
               href="https://linkedin.com"
               target="_blank"
               className="social-link">
-              <img src="/assets/socialicons4.png" alt="Bet88" title="Bet88" />
+              <img
+                src="/assets/socialicons4.png"
+                alt="Panalobet"
+                title="Panalobet"
+              />
             </a>
           </div>
           <div className="alignment gap20">

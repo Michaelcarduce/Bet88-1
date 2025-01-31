@@ -3,7 +3,6 @@ import "../styles/global.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  
   return (
     <footer className="special-footer">
       <div className="footer dualCompartment2080 ptb40">
@@ -22,36 +21,31 @@ const Footer = () => {
             <Link
               to="/"
               target="_blank"
-              className="footerlinks footerdescriptions colorSec"
-            >
+              className="footerlinks footerdescriptions colorSec">
               Licensing
             </Link>
             <Link
               to="/"
               target="_blank"
-              className="footerdescriptions colorSec"
-            >
+              className="footerdescriptions colorSec">
               Terms and Conditions
             </Link>
             <Link
               to="/"
               target="_blank"
-              className="footerdescriptions colorSec"
-            >
+              className="footerdescriptions colorSec">
               Privacy Policy
             </Link>
             <Link
               to="/"
               target="_blank"
-              className="footerdescriptions colorSec"
-            >
+              className="footerdescriptions colorSec">
               Responsible Gaming
             </Link>
             <Link
               to="/"
               target="_blank"
-              className="footerdescriptions colorSec"
-            >
+              className="footerdescriptions colorSec">
               About us
             </Link>
           </div>
@@ -59,7 +53,7 @@ const Footer = () => {
             <span className="footerdescriptions colorReg1">
               © 2023 All Rights Reserved by
               <Link to="/" target="_blank" className="colorSec pl10">
-                Mega Cricket World Bangladesh
+                Mega Cricket World Philippines
               </Link>
             </span>
           </div>
@@ -67,30 +61,26 @@ const Footer = () => {
             <Link
               to="/"
               target="_blank"
-              className="footerdescriptions colorSec"
-            >
-              Bet88 Casino Bangladesh
+              className="footerdescriptions colorSec">
+              Panalobet Casino Philippines
             </Link>
             <Link
               to="/"
               target="_blank"
-              className="footerdescriptions colorSec"
-            >
-              Bet88 Live
+              className="footerdescriptions colorSec">
+              Panalobet Live
             </Link>
             <Link
               to="/"
               target="_blank"
-              className="footerdescriptions colorSec"
-            >
-              Bet88 Bangladesh
+              className="footerdescriptions colorSec">
+              Panalobet Bangladesh
             </Link>
             <Link
               to="/"
               target="_blank"
-              className="footerdescriptions colorSec"
-            >
-              Bet88 Philippines
+              className="footerdescriptions colorSec">
+              Panalobet Philippines
             </Link>
           </div>
         </div>

@@ -13,8 +13,8 @@ import FAQAnimation from "../animations/FAQAnimation.js";
 import Footer from "../components/Footer.js";
 
 const FishingGames = () => {
-  const promotionCardRefs = usePopAnimation(); 
-  const tablesCardRefs = usePopAnimation(); 
+  const promotionCardRefs = usePopAnimation();
+  const tablesCardRefs = usePopAnimation();
 
   return (
     <div>
@@ -22,13 +22,14 @@ const FishingGames = () => {
       <section className="singleCompartment ptb60 plr5perc overflowXHorizontalHidden mt150spec">
         <div className="compartmentStackedLayout">
           <h1 className="heading1 colorPri pb30">
-            Discover the Ultimate Fishing Game Adventure at Bet88!
+            Discover the Ultimate Fishing Game Adventure at Panalobet!
           </h1>
           <div className="bgGlassMorphism p20 borderRadius1 mb60">
             <p className="descriptions textAlignmentLeft colorReg1">
               The world of online betting with the possibility of gambling and
-              fishing games is waiting for you at the Bet88 platform. Bet88 is a
-              new and entertaining market providing an approach to any{" "}
+              fishing games is waiting for you at the Panalobet platform.
+              Panalobet is a new and entertaining market providing an approach
+              to any{" "}
               <span className="fontWeightBold colorSec">
                 online casino player
               </span>{" "}
@@ -43,12 +44,12 @@ const FishingGames = () => {
           <div className="compartmentStackedLayout">
             <div className="compartmentStackedLayoutLeft">
               <h2 className="heading2 textAlignmentLeft colorSec pb30">
-                Why Bet88 Stands Out in Fish Shooting Games
+                Why Panalobet Stands Out in Fish Shooting Games
               </h2>
               <p className="descriptions textAlignmentLeft colorReg1 pb30">
-                Fish shooting games are not only entertaining at Bet88 but also
-                visually appealing due to how we have sourced the games to meet
-                the clientèle. Our{" "}
+                Fish shooting games are not only entertaining at Panalobet but
+                also visually appealing due to how we have sourced the games to
+                meet the clientèle. Our{" "}
                 <span className="fontWeightBold colorSec">
                   live casino games
                 </span>{" "}
@@ -57,7 +58,7 @@ const FishingGames = () => {
                 controls, and a number of features for different categories of
                 users. For a beginner, this is an opportunity to practice,
                 whereas for younger players it offers competitions that will
-                lure them to Bet88. Our platform is home to:
+                lure them to Panalobet. Our platform is home to:
               </p>
             </div>
             <div className="dualCompartment6040 mb60">
@@ -111,8 +112,8 @@ const FishingGames = () => {
                     />
                     <img
                       src="/assets/slotImage1.png"
-                      alt="Bet88"
-                      title="Bet88"
+                      alt="Panalobet"
+                      title="Panalobet"
                       class="img_fit"
                     />
                   </picture>
@@ -129,7 +130,7 @@ const FishingGames = () => {
                 <span className="fontWeightBold colorSec">
                   fish shooting games
                 </span>{" "}
-                available at Bet88 are some of the best ones because of the
+                available at Panalobet are some of the best ones because of the
                 high-definition graphics. Both games take you to an energetic
                 world below water with flashy fish and lovely other aqua beings.
                 The backgrounds are dynamic, the fish are sharp and
@@ -139,8 +140,8 @@ const FishingGames = () => {
               <p className="descriptions textAlignmentLeft colorReg1">
                 Consequently, just like the tidy work of the artists the
                 gameplay is also really profound. All the slots that can be
-                played at Bet88 are entertaining and regardless of whether it is
-                the main fishing action or one of the bonus games.
+                played at Panalobet are entertaining and regardless of whether
+                it is the main fishing action or one of the bonus games.
               </p>
             </div>
 
@@ -149,11 +150,11 @@ const FishingGames = () => {
                 A Wide Range of Games to Suit Every Player
               </h2>
               <p className="descriptions textAlignmentLeft colorReg1 pb30">
-                At Bet88, we recognize that every player has unique preferences,
-                so we offer a diverse selection of fish shooting games. Whether
-                you prefer a classic fish-hunting experience or something more
-                modern with power-ups and special bonuses, we’ve got you
-                covered. Our extensive library of games includes:
+                At Panalobet, we recognize that every player has unique
+                preferences, so we offer a diverse selection of fish shooting
+                games. Whether you prefer a classic fish-hunting experience or
+                something more modern with power-ups and special bonuses, we’ve
+                got you covered. Our extensive library of games includes:
               </p>
             </div>
             <div className="dualCompartment6040 mb60">
@@ -205,8 +206,8 @@ const FishingGames = () => {
                     />
                     <img
                       src="/assets/slotImage1.png"
-                      alt="Bet88"
-                      title="Bet88"
+                      alt="Panalobet"
+                      title="Panalobet"
                       class="img_fit"
                     />
                   </picture>
@@ -219,14 +220,14 @@ const FishingGames = () => {
                 Innovative Game Providers
               </h2>
               <p className="descriptions textAlignmentLeft colorReg1 pb30">
-                To ensure the highest quality gameplay, Bet88 partners with some
-                of the most respected game developers in the{" "}
+                To ensure the highest quality gameplay, Panalobet partners with
+                some of the most respected game developers in the{" "}
                 <span className="fontWeightBold colorSec">
                   online casino industry
                 </span>
                 . These providers are known for their innovation, unique game
-                mechanics, and cutting-edge designs, ensuring that Bet88 players
-                always have fresh content to enjoy. Some of our esteemed
+                mechanics, and cutting-edge designs, ensuring that Panalobet
+                players always have fresh content to enjoy. Some of our esteemed
                 partners include:
               </p>
             </div>
@@ -285,8 +286,8 @@ const FishingGames = () => {
                     />
                     <img
                       src="/assets/slotImage1.png"
-                      alt="Bet88"
-                      title="Bet88"
+                      alt="Panalobet"
+                      title="Panalobet"
                       class="img_fit"
                     />
                   </picture>
@@ -300,7 +301,7 @@ const FishingGames = () => {
       <section className="singleCompartment ptb60 plr5perc overflowXHorizontalHidden">
         <div className="compartmentStackedLayoutLeft">
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
-            How to Play Fish Shooting Games at Bet88
+            How to Play Fish Shooting Games at Panalobet
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             Fish shooting games are easy to understand and are incredibly
@@ -315,7 +316,7 @@ const FishingGames = () => {
                   1. Choose Your Game
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
-                  Bet88 offers a fish shooting games collection - Go through
+                  Panalobet offers a fish shooting games collection - Go through
                   this list and select your favorite fish shooting game. This
                   means that everyone should always have a go at every game
                   because there is always that one that they would like most.
@@ -387,7 +388,7 @@ const FishingGames = () => {
           </div>
 
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
-            Why Play Fish Shooting Games at Bet88?
+            Why Play Fish Shooting Games at Panalobet?
           </h2>
           <div className="compartmentStackedLayout mb60">
             <SlideAnimation slideDuration={500}>
@@ -396,11 +397,11 @@ const FishingGames = () => {
                   1. Variety and Choice
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
-                  At the Bet88 platform, you can expect the readily available
-                  wide range of fish shooting games to suit anyone’s preference.
-                  It ranges from simple and traditional games to contemporary
-                  and flashy games, whatever you are looking for you can find
-                  it.
+                  At the Panalobet platform, you can expect the readily
+                  available wide range of fish shooting games to suit anyone’s
+                  preference. It ranges from simple and traditional games to
+                  contemporary and flashy games, whatever you are looking for
+                  you can find it.
                 </p>
               </div>
             </SlideAnimation>
@@ -440,7 +441,7 @@ const FishingGames = () => {
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
                   We understand security as one of the most important aspects at
-                  Bet88. All of the games are tested and approved for their
+                  Panalobet. All of the games are tested and approved for their
                   fairness, so each time you risk money, you can be sure you’ll
                   play fairly.
                 </p>
@@ -555,9 +556,9 @@ const FishingGames = () => {
                     </h3>
                     <p className="descriptions textAlignmentLeft colorReg1">
                       Ensure you use appropriate bonuses and promotions when
-                      betting at Bet88. They can offer you more hours of play,
-                      increase your probability of emerging the winner, or even
-                      improve your game in some way.
+                      betting at Panalobet. They can offer you more hours of
+                      play, increase your probability of emerging the winner, or
+                      even improve your game in some way.
                     </p>
                   </div>
                 </div>
@@ -632,25 +633,25 @@ const FishingGames = () => {
       <section className="singleCompartment ptb60 plr5perc overflowXHorizontalHidden">
         <div className="compartmentStackedLayoutLeft">
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
-            Join Bet88 Today for the Best Fish Shooting Games in the
+            Join Panalobet Today for the Best Fish Shooting Games in the
             Philippines!
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             <span className="fontWeightBold colorSec">
               Fish shooting game lovers
             </span>{" "}
-            are in for a real treat because, at Bet88, we have the most vibrant
-            and thrilling fish shooting games you can play online. Thanks to the
-            great variety of games, bright images, and the dynamic character of
-            the gameplay, we will provide only a pleasant and exciting time for
-            every run-of-the-mill player and professional gamer. Whether the
-            goal is to get a big prize or simply to have a good time fishing,
-            Bet88 has everything needed for a great time.
+            are in for a real treat because, at Panalobet, we have the most
+            vibrant and thrilling fish shooting games you can play online.
+            Thanks to the great variety of games, bright images, and the dynamic
+            character of the gameplay, we will provide only a pleasant and
+            exciting time for every run-of-the-mill player and professional
+            gamer. Whether the goal is to get a big prize or simply to have a
+            good time fishing, Panalobet has everything needed for a great time.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             So why wait?{" "}
-            <span className="fontWeightBold colorSec">Join Bet88</span> now to
-            register and own a chance to engage yourself to play with our
+            <span className="fontWeightBold colorSec">Join Panalobet</span> now
+            to register and own a chance to engage yourself to play with our
             exciting high-risk fish shooting games. Exciting bonuses, excellent
             customer care, as well as several chances to strike it rich – your
             next shark is just behind the button!
