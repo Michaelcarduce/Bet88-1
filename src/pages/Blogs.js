@@ -12,6 +12,17 @@ const Homepage = () => {
   // Sort blogs by id in descending order (newest to oldest)
   const sortedBlogs = [...blogs].sort((a, b) => b.id - a.id);
 
+  useEffect(() => {
+    document.title = "Online Casino Update, News & Blogs";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Read Panalobet's blogs related to Sports betting, Online Casino, Live Casino, Bonus, Promotion and more!"
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />

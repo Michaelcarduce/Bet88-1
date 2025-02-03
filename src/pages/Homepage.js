@@ -19,6 +19,18 @@ const Homepage = () => {
   const promotionCardRefs = usePopAnimation();
   const gamesCardRefs = usePopAnimation();
 
+  useEffect(() => {
+    document.title =
+      "Panalobet | Trusted Online Casino and Sports Betting in Philippines - PAGCOR Licensed";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Panalobet Casino is not just a casino but a place where players get a real-time, safe, and easy experience to play games in particular from the Philippines. Join now and get attractive welcome bonus!"
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />

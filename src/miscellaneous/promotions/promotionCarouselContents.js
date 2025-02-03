@@ -100,11 +100,11 @@ const promotions = [
   },
   {
     id: 12,
-    title: "CPL 2024 Up To ₱18,000,000 Giveaway",
+    title: "CPL 2025 Up To ₱18,000,000 Giveaway",
     link: "/signup",
     buttonText: "Sign Up",
     description:
-      "Don't miss our CPL 2024 giveaway, with a large prize pool of up to ₱18,000,000! Play during this exciting cricket season for a chance to win big.",
+      "Don't miss our CPL 2025 giveaway, with a large prize pool of up to ₱18,000,000! Play during this exciting cricket season for a chance to win big.",
     image: "/assets/promotions4.jpg",
   },
 ];

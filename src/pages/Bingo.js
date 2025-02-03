@@ -16,6 +16,18 @@ const Bingo = () => {
   const promotionCardRefs = usePopAnimation();
   const tablesCardRefs = usePopAnimation();
 
+  useEffect(() => {
+    document.title =
+      "Play Online Bingo at Panalobet | Exciting Games & Big Wins!";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Join Panalobet now, play Panalobet online bingo which offers you the best bingo gaming experience in the Philippines. Play exciting bingo games, win big prizes."
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />

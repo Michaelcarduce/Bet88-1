@@ -19,6 +19,17 @@ const Promotion = () => {
   const tablesCardRefs = usePopAnimation();
   const affiliateCardRefs = usePopAnimation();
 
+  useEffect(() => {
+    document.title = "Panalobet Promotions | Get 200% WELCOME BONUS";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Are you willing to grab our excellent and special offers and bonuses section? Join the exciting world of Panalobet online Casino now!"
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />

@@ -13,6 +13,17 @@ const LiveCasino = () => {
   const promotionCardRefs = usePopAnimation();
   const tablesCardRefs = usePopAnimation();
 
+  useEffect(() => {
+    document.title = "Panalobet | Online Live Casinos in the Philippines 2025";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Enjoy the live casino games Online in Philippines with Panalobet. Sign Up now and enjoy real-time gaming with professional dealers, exciting games like Baccarat, Blackjack, and Roulette."
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />
@@ -43,7 +54,7 @@ const LiveCasino = () => {
 
         <div className="compartmentStackedLayout">
           <h1 className="heading1 colorPri pb30">
-            Explore the Top-Rated Online Live Casinos in the Philippines 2024
+            Explore the Top-Rated Online Live Casinos in the Philippines 2025
           </h1>
           <div className="bgGlassMorphism p20 borderRadius1">
             <p className="descriptions textAlignmentLeft mb10 colorReg1">
@@ -52,7 +63,7 @@ const LiveCasino = () => {
                 Philippine Live casinos
               </span>
               ! Virtual gaming and betting to get a higher level of thrill and
-              easy to access in the year 2024. Among all online Gaming platforms
+              easy to access in the year 2025. Among all online Gaming platforms
               available, Panalobet is without a doubt ranked in the league of
               extraordinary platforms that would provide{" "}
               <span className="fontWeightBold colorSec">Filipino gamers</span>{" "}
@@ -80,7 +91,7 @@ const LiveCasino = () => {
               <span className="fontWeightBold colorSec">
                 Philippine online casino
               </span>{" "}
-              websites for 2024 based on various factors that influence players’
+              websites for 2025 based on various factors that influence players’
               satisfaction. In this regard, we give you detailed information on
               where to play so that every gamer in the Philippines can have a
               great time gaming. This includes the following stunning products
@@ -93,7 +104,7 @@ const LiveCasino = () => {
       <section className="singleCompartment ptb60 plr5perc overflowXHorizontalHidden">
         <div className="compartmentStackedLayout">
           <h2 className="heading2 colorSec pb30">
-            Explore the Top-Rated Online Live Casinos in the Philippines 2024
+            Panalobet- Best Online Live Casino in Philippines
           </h2>
           {/* Table Games Card Grid */}
           <div className="flexboxGrid">

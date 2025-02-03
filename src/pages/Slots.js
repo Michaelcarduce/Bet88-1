@@ -16,6 +16,17 @@ const Slots = () => {
   const promotionCardRefs = usePopAnimation();
   const tablesCardRefs = usePopAnimation();
 
+  useEffect(() => {
+    document.title = "Panalobet Best Casino Slots in the Philippines for 2025";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Download Panalobet App and enjoy the best casino slots in the Philippines. Play anytime, anywhere and elevate your gaming adventure!"
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />
@@ -46,14 +57,14 @@ const Slots = () => {
 
         <div className="compartmentStackedLayout">
           <h1 className="heading1 colorPri pb30">
-            High Stakes Fun: The Best Casino Slots in the Philippines for 2024
+            High Stakes Fun: The Best Casino Slots in the Philippines for 2025
           </h1>
           <div className="bgGlassMorphism p20 borderRadius1">
             <p className="descriptions textAlignmentLeft mb10 colorReg1">
               Welcome to the universe of luxury and fabulous gambling – discover
               the Best Limit{" "}
               <span className="fontWeightBold colorSec">
-                Casino Slots in the Philippines for 2024
+                Casino Slots in the Philippines for 2025
               </span>
               . For what reason can people accept such conditions if the
               executive peak of online gaming is within reach? This guide
@@ -91,7 +102,7 @@ const Slots = () => {
             high-limit gaming experience is exuberating.
           </p>
           <h3 className="heading3 colorTer pb30">
-            Don’t Miss Out: Best High-Limit Casino Slots for 2024
+            Don’t Miss Out: Best High-Limit Casino Slots for 2025
           </h3>
           {/* Table Games Card Grid */}
           <div className="flexboxGrid">
@@ -119,7 +130,7 @@ const Slots = () => {
             <span className="fontWeightBold colorSec">
               Casino Slots in the Philippines
             </span>{" "}
-            for 2024. Given the kind of options that are available on the
+            for 2025. Given the kind of options that are available on the
             market, who wants to go for substandard items and services? In this
             guide, you will find the{" "}
             <span className="fontWeightBold colorSec">best slot games</span>{" "}

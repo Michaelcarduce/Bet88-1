@@ -19,6 +19,18 @@ const Affiliate = () => {
   const tablesCardRefs = usePopAnimation();
   const affiliateCardRefs = usePopAnimation();
 
+  useEffect(() => {
+    document.title =
+      "Get Paid Weekly with Panalobet Affiliate – Up to 42% Commission!";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Sign up for the Panalobet Affiliate Program now and receive huge revenue sharing just ensuring your players are active. Don’t miss the chance."
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />

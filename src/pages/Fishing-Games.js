@@ -16,6 +16,17 @@ const FishingGames = () => {
   const promotionCardRefs = usePopAnimation();
   const tablesCardRefs = usePopAnimation();
 
+  useEffect(() => {
+    document.title = "Join Panalobet - Enjoy Online Fishing Games";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Online fishing games is waiting for you at the Panalobet platform. Get ready to hook, fight, and win big in the ultimate fishing game!"
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />
