@@ -469,6 +469,30 @@ main {
 a {
   text-decoration: none;
 }
+
+a.anchorLink {
+  color: #eed38f;
+  position: relative;
+  font-weight: 600;
+}
+
+a.anchorLink::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #eed38f;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+a.anchorLink:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
 /* - Anchor Tag */
 
 /* Unordered, Ordered list style */

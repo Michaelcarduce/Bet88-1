@@ -46,22 +46,33 @@ const Homepage = () => {
             <p className="descriptions textAlignmentLeft mb10 colorReg1">
               Nowadays, almost all things are on the internet and so too is
               mobile gaming.{" "}
-              <span className="fontWeightBold colorSec">Casino games</span> have
-              recently skyrocketed in popularity in the Philippines since they
-              offer users an easy and direct approach to playing casino games
-              through their smartphones and other gadgets. Bet88 is the pioneer
-              of this revolution, ensuring that playing on the Internet is
-              perfectly fun for gamers.
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                Casino games
+              </a>{" "}
+              have recently skyrocketed in popularity in the Philippines since
+              they offer users an easy and direct approach to playing casino
+              games through their smartphones and other gadgets. Bet88 is the
+              pioneer of this revolution, ensuring that playing on the Internet
+              is perfectly fun for gamers.
             </p>
             <p className="descriptions textAlignmentLeft colorReg1">
-              At Bet88, players are in a position to enjoy multiple
-              multiplication kinds of online casino games such as slot games,
-              and live dealer games, amongst others. There are no downloads of
-              heavy software and the real-time mobile website and the dedicated
-              app provide the exhilarating and thrilling casino in your hands.
-              Regardless of the location you might be – at home, work, or during
-              traveling, Bet88 will offer you the finest online casino
-              experience.
+              At{" "}
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                Bet88
+              </a>
+              , players are in a position to enjoy multiple multiplication kinds
+              of online casino games such as slot games, and live dealer games,
+              amongst others. There are no downloads of heavy software and the
+              real-time mobile website and the dedicated app provide the
+              exhilarating and thrilling casino in your hands. Regardless of the
+              location you might be – at home, work, or during traveling, Bet88
+              will offer you the finest online casino experience.
             </p>
           </div>
         </div>
@@ -86,11 +97,13 @@ const Homepage = () => {
             Bet88: The Top Choice for Filipino Players – Here’s Why!
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
-            Bet88 stands out as the
-            <span className="fontWeightBold colorSec">
-              {" "}
+            Bet88 stands out as the{" "}
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               best online casino
-            </span>{" "}
+            </a>{" "}
             for Philippines players bringing together a virtual platform that
             captures both pleasure and accuracy. Bet88 however is not only well
             recognized for the vast games offered in the online casino, but more
@@ -101,22 +114,42 @@ const Homepage = () => {
             Bet88 doesn’t just give you that gaming experience on your device,
             but also makes you feel like you are in a live dealer casino where
             you are dealt with by professional dealers for{" "}
-            <span className="fontWeightBold colorSec">slot games</span>,
-            baccarat, and even jackpot casino games. Bet88 provides a seamless
-            betting journey with an easy-to-navigate interface and sleek
-            graphics; you can always receive the best of live dealer games,
-            online slots, and baccarat without a hitch.
+            <a
+              href="https://bet88-casino.vip/slots"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              slot games
+            </a>
+            ,{" "}
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              baccarat
+            </a>
+            , and even{" "}
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              jackpot casino games
+            </a>
+            . Bet88 provides a seamless betting journey with an easy-to-navigate
+            interface and sleek graphics; you can always receive the best of
+            live dealer games, online slots, and baccarat without a hitch.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Apart from entertainment in various games, Bet88 creates a channel
             of professionalism in games as the consumers come together with the
             common goal of betting. The platform upholds responsibility in
             gaming and upholding fairness and this lays down a very ethical tone
-            for any player to play in the platform. It also provides the Bet88
-            <span className="fontWeightBold colorSec">
-              {" "}
-              free sign-up bonuses{" "}
-            </span>
+            for any player to play in the platform. It also provides the Bet88{" "}
+            <a
+              href="https://bet88-casino.vip/promotion"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              free sign-up bonuses
+            </a>{" "}
             and No deposit bonuses so that making the spinning journey always
             too rewarding from every big to the first spin.
           </p>
@@ -124,8 +157,13 @@ const Homepage = () => {
             Bet88 is not only entertainment, it is a membership in a group of
             people with similar interests of enjoying the Philippine culture of
             betting on games. Bet88 provides one of the best online gaming
-            experiences through Multiplayer facilities providing a wide range of
-            <span className="fontWeightBold colorSec"> live casino games </span>
+            experiences through Multiplayer facilities providing a wide range of{" "}
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              live casino games
+            </a>
             , and other opportunities & challenges with strategic progression.
           </p>
         </div>
@@ -166,13 +204,18 @@ const Homepage = () => {
             When dealing with money, security protocols should be strong to
             avoid loss of money, or extra and unnecessary effort prompting the
             users to seek other platforms. As is the case in a{" "}
-            <span className="fontWeightBold colorSec">live casino</span> where
-            individuals are required to be assured that the money they possess
-            and other individual details are safe throughout the gameplay. This
-            is why Bet88 provides absolute safety for both the website and the
-            application, guarantees the safe handling of all private
-            information, and lets the players have fun while playing without
-            worry in the world.
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              live casino
+            </a>{" "}
+            where individuals are required to be assured that the money they
+            possess and other individual details are safe throughout the
+            gameplay. This is why Bet88 provides absolute safety for both the
+            website and the application, guarantees the safe handling of all
+            private information, and lets the players have fun while playing
+            without worry in the world.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Bet88’s website carries the seal of approval of the Curaçao eGaming
@@ -280,10 +323,13 @@ const Homepage = () => {
           <p className="descriptions textAlignmentLeft colorReg1">
             Through this trusted and secure platform, Bet88 has become the best
             destination for{" "}
-            <span className="fontWeightBold colorSec">
-              online casino lovers
-            </span>{" "}
-            in the Philippines, Pakistan as well as India.
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              online casino lovers in the Philippines
+            </a>
+            , Pakistan as well as India.
           </p>
         </div>
       </section>
@@ -306,19 +352,27 @@ const Homepage = () => {
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Bet88 has revolutionized the gaming aspect into a new-age wonder
             that entices modern players to game like never before. Bringing you
-            a wide range of games, from{" "}
-            <span className="fontWeightBold colorSec">live casino</span> and
-            high stakes slots, it gives players control over their future in
-            this immersive gaming world. It makes no difference if it is
-            spinning the reels or betting on the live games as players can get
-            everything throughout their screens.
+            a wide range of games, from live casino and{" "}
+            <a
+              href="https://bet88-casino.vip/slots"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              high stakes slots
+            </a>
+            , it gives players control over their future in this immersive
+            gaming world. It makes no difference if it is spinning the reels or
+            betting on the live games as players can get everything throughout
+            their screens.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             The platform is real and unique for users to experience the thrill
             of{" "}
-            <span className="fontWeightBold colorSec">
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               real online casino games
-            </span>{" "}
+            </a>{" "}
             that imitate the actual casino. The beauty of every game is also
             presented by Bet88 as they present baccarat strategies that even
             involve detailed game coverage of a band sophisticated and intricate
@@ -350,10 +404,13 @@ const Homepage = () => {
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1">
             Bet88 is not only a sportsbook platform, it has a lot more to offer
-            in terms of casino games for all types of players. Expect only the
-            <span className="fontWeightBold colorSec">
+            in terms of casino games for all types of players. Expect only the{" "}
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               best live casino
-            </span>{" "}
+            </a>{" "}
             with providers like Evolution Gaming, Microgaming, Playtech, and
             Sexy Gaming, and get to play other interesting table games provided
             by KA Gaming, WorldMatch, BPoker, and LudoBet
@@ -401,7 +458,12 @@ const Homepage = () => {
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Established as the online hub for{" "}
-            <span className="fontWeightBold colorSec">Free online casinos</span>
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              Free online casinos
+            </a>
             , entertainment, and wagering, Bet88 values quality above all else.
             High-quality games are made available to our players since we work
             closely with some of the leading game developers. The company
@@ -412,8 +474,13 @@ const Homepage = () => {
           <p className="descriptions textAlignmentLeft colorReg1">
             Some leading game suppliers are RT, SG, JDB, JILI, and CQ9 Gaming
             have formed their name in the world of{" "}
-            <span className="fontWeightBold colorSec">online casinos</span> and
-            are continuously coming up with unique creations. Regardless of
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              online casinos
+            </a>{" "}
+            and are continuously coming up with unique creations. Regardless of
             whether you enjoy playing slots and casino games, betting live
             dealers or wagering on your favorite sports – you will surely find
             many interesting opportunities at Bet88 that will match your
@@ -493,7 +560,12 @@ const Homepage = () => {
           </ul>
           <p className="descriptions textAlignmentLeft colorReg1">
             You can receive a{" "}
-            <span className="fontWeightBold colorSec">Welcome Bonus</span>
+            <a
+              href="https://bet88-casino.vip/promotion"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              Welcome Bonus
+            </a>{" "}
             immediately upon account activation, and it will allow you to
             receive up to{" "}
             <span className="fontWeightBold colorSec">50% of 7,777 PHP</span>.
@@ -527,10 +599,29 @@ const Homepage = () => {
             Android as well as on iOS. This mobile version provides the players
             with a perfect chance to gamble without being limited by place,
             time, or type of games offered and it can include{" "}
-            <span className="fontWeightBold colorSec">live casino games</span>,
-            slots, and even sports bets. Anyone who is hesitant to download the
-            app, still has the option of using their mobile browser to access
-            the said platform to ensure optimum freedom and ease.
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              live casino games
+            </a>
+            ,{" "}
+            <a
+              href="https://bet88-casino.vip/slots"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              slots
+            </a>
+            , and even{" "}
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              sports bets
+            </a>
+            . Anyone who is hesitant to download the app, still has the option
+            of using their mobile browser to access the said platform to ensure
+            optimum freedom and ease.
           </p>
         </div>
       </section>
@@ -553,9 +644,12 @@ const Homepage = () => {
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Southeast Asian viewers may also be tempted to look for similar game
             options like{" "}
-            <span className="fontWeightBold colorSec">
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               Online Casino Philippines
-            </span>
+            </a>{" "}
             for localized websites.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">

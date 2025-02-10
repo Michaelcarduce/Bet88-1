@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Homepage from "./pages/Homepage.js";
 import LiveCasino from "./pages/Live-Casino.js";
 import Slots from "./pages/Slots.js";
@@ -12,6 +12,32 @@ import BlogPosts from "./pages/BlogPosts.js";
 import NotFound from "./pages/404.js";
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === "/") {
+      const script1 = document.createElement("script");
+      script1.async = true;
+      script1.src = "https://www.googletagmanager.com/gtag/js?id=G-LS10DDRSPV";
+      document.head.appendChild(script1);
+
+      const script2 = document.createElement("script");
+      script2.innerHTML = `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LS10DDRSPV');
+      `;
+      document.head.appendChild(script2);
+
+      return () => {
+        document.head.removeChild(script1);
+        document.head.removeChild(script2);
+      };
+    }
+  }, [location.pathname]);
+
   return (
     <div className="App">
       <Routes>
