@@ -14,7 +14,7 @@ const promotions = [
     link: "/signup",
     buttonText: "Sign Up",
     description:
-      "Panalobet has a slot bonus for all slot lovers: Website First Deposit Match Bonus of 100% up to ₱5,000. Whether you like the bar icons in the traditions or like the line video icons this bonus is provided to ensure you get the maximum of the launched deposit.",
+      "Bet88 has a slot bonus for all slot lovers: Website First Deposit Match Bonus of 100% up to ₱5,000. Whether you like the bar icons in the traditions or like the line video icons this bonus is provided to ensure you get the maximum of the launched deposit.",
     image: "/assets/promotions2.jpg",
   },
   {
@@ -23,7 +23,7 @@ const promotions = [
     link: "/signup",
     buttonText: "Sign Up",
     description:
-      "From week to week, Panalobet players can make the most of our weekly 8.88% discount where up to ₱20,000 can be refunded on your losses. This promotion ensures that fun remains the order of the day, this is especially true when lady luck decides to desert you at the table.",
+      "From week to week, Bet88 players can make the most of our weekly 8.88% discount where up to ₱20,000 can be refunded on your losses. This promotion ensures that fun remains the order of the day, this is especially true when lady luck decides to desert you at the table.",
     image: "/assets/promotions3.jpg",
   },
   {
@@ -41,7 +41,7 @@ const promotions = [
     link: "/signup",
     buttonText: "Sign Up",
     description:
-      "Sign up for Panalobet now and get ₱500 free bonus! Invite your friends and get ₱1000 for each of them for joining Panalobet and making a first Deposit with them! X marks the spot. As much as it will be great to be tempted or rewarded by this kind of script the next moment you find yourself scripting for someone else’s new project it’s a win-win situation for all parties involved.",
+      "Sign up for Bet88 now and get ₱500 free bonus! Invite your friends and get ₱1000 for each of them for joining Bet88 and making a first Deposit with them! X marks the spot. As much as it will be great to be tempted or rewarded by this kind of script the next moment you find yourself scripting for someone else’s new project it’s a win-win situation for all parties involved.",
     image: "/assets/promotions1.jpg",
   },
   {
@@ -50,7 +50,7 @@ const promotions = [
     link: "/signup",
     buttonText: "Sign Up",
     description:
-      "The new customer can receive a first deposit bonus of one hundred percent of the amount deposited, not exceeding 500 php. This bonus is meant to help you get extra cash to play even more games within the platform on Panalobet.",
+      "The new customer can receive a first deposit bonus of one hundred percent of the amount deposited, not exceeding 500 php. This bonus is meant to help you get extra cash to play even more games within the platform on Bet88.",
     image: "/assets/promotions2.jpg",
   },
   {
@@ -64,11 +64,11 @@ const promotions = [
   },
   {
     id: 8,
-    title: "Daren Sammy Announced as Panalobet Brand Ambassador",
+    title: "Daren Sammy Announced as Bet88 Brand Ambassador",
     link: "/signup",
     buttonText: "Sign Up",
     description:
-      "Panalobet proudly announces cricket legend Daren Sammy as the official brand ambassador for Panalobet His endorsement speaks to the quality and reliability of Panalobet’s sportsbook.",
+      "Bet88 proudly announces cricket legend Daren Sammy as the official brand ambassador for Bet88 His endorsement speaks to the quality and reliability of Bet88’s sportsbook.",
     image: "/assets/promotions4.jpg",
   },
   {
@@ -77,7 +77,7 @@ const promotions = [
     link: "/signup",
     buttonText: "Sign Up",
     description:
-      "Panalobet offers a 10% unlimited weekly cashback on live casino games, so you can keep playing and winning, knowing that you’ll always get something back.",
+      "Bet88 offers a 10% unlimited weekly cashback on live casino games, so you can keep playing and winning, knowing that you’ll always get something back.",
     image: "/assets/promotions1.jpg",
   },
   {
@@ -95,7 +95,7 @@ const promotions = [
     link: "/signup",
     buttonText: "Sign Up",
     description:
-      "Panalobet rewards you with a 0.35% unlimited daily rebate on all bets, with VIP players able to earn up to 2% more. This daily rebate ensures that every bet counts, no matter the outcome.",
+      "Bet88 rewards you with a 0.35% unlimited daily rebate on all bets, with VIP players able to earn up to 2% more. This daily rebate ensures that every bet counts, no matter the outcome.",
     image: "/assets/promotions3.jpg",
   },
   {

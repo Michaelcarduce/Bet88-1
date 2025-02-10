@@ -11,8 +11,8 @@ const Footer = () => {
             <img
               className="logo"
               src="/assets/logo.png"
-              alt="PANALOBET Logo"
-              title="PANALOBET Logo"
+              alt="Bet88 Logo"
+              title="Bet88 Logo"
             />
           </a>
         </div>
@@ -53,7 +53,7 @@ const Footer = () => {
             <span className="footerdescriptions colorReg1">
               © 2023 All Rights Reserved by
               <Link to="/" target="_blank" className="colorSec pl10">
-                Mega Cricket World Philippines
+                Bet88 Philippines
               </Link>
             </span>
           </div>
@@ -62,25 +62,25 @@ const Footer = () => {
               to="/"
               target="_blank"
               className="footerdescriptions colorSec">
-              Panalobet Casino Philippines
+              Bet88 Casino Philippines
             </Link>
             <Link
               to="/"
               target="_blank"
               className="footerdescriptions colorSec">
-              Panalobet Live
+              Bet88 Live
             </Link>
             <Link
               to="/"
               target="_blank"
               className="footerdescriptions colorSec">
-              Panalobet Bangladesh
+              Bet88 Bangladesh
             </Link>
             <Link
               to="/"
               target="_blank"
               className="footerdescriptions colorSec">
-              Panalobet Philippines
+              Bet88 Philippines
             </Link>
           </div>
         </div>

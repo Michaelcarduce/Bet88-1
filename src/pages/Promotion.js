@@ -20,12 +20,12 @@ const Promotion = () => {
   const affiliateCardRefs = usePopAnimation();
 
   useEffect(() => {
-    document.title = "Panalobet Promotions | Get 200% WELCOME BONUS";
+    document.title = "Bet88 Promotions | Get 200% WELCOME BONUS";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Are you willing to grab our excellent and special offers and bonuses section? Join the exciting world of Panalobet online Casino now!"
+        "Are you willing to grab our excellent and special offers and bonuses section? Join the exciting world of Bet88 online Casino now!"
       );
     }
   }, []);
@@ -36,31 +36,31 @@ const Promotion = () => {
       <section className="singleCompartment ptb60 plr5perc overflowXHorizontalHidden mt150spec">
         <div className="compartmentStackedLayout">
           <h1 className="heading1 colorPri pb30">
-            Panalobet: The Premier Online Casino in the Philippines
+            Bet88: The Premier Online Casino in the Philippines
           </h1>
           <div className="bgGlassMorphism p20 borderRadius1 mb60">
             <p className="descriptions textAlignmentLeft colorReg1">
-              Greetings at Panalobet – The Philippines’ favorite site for people
-              who enjoy casinos online! Regardless if you’re a regular player or
-              a beginner in the world of{" "}
+              Greetings at Bet88 – The Philippines’ favorite site for people who
+              enjoy casinos online! Regardless if you’re a regular player or a
+              beginner in the world of{" "}
               <span className="fontWeightBold colorSec">online casinos</span>,
-              Panalobet is a perfect and fun guide through the world of{" "}
+              Bet88 is a perfect and fun guide through the world of{" "}
               <span className="fontWeightBold colorSec">online gaming</span>.
-              Panalobet is the optimal option for those players who are in
-              search of a reliable and profitable online casino with a great
-              number of games, bonuses, and safe payment methods such as GCash.
+              Bet88 is the optimal option for those players who are in search of
+              a reliable and profitable online casino with a great number of
+              games, bonuses, and safe payment methods such as GCash.
             </p>
           </div>
 
           <h2 className="heading2 colorSec pb30">
-            Panalobet Promotions: Exciting Offers for New and Returning Players
+            Bet88 Promotions: Exciting Offers for New and Returning Players
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
-            In the bonuses and promotions section, Panalobet is pleased to
-            present some of the most marvellous bonuses available in the
-            internet gaming zone. Of course, there will always be some function
-            that will pique a player's interest no matter how frequent their
-            gaming is. See the following for our most recent offers:
+            In the bonuses and promotions section, Bet88 is pleased to present
+            some of the most marvellous bonuses available in the internet gaming
+            zone. Of course, there will always be some function that will pique
+            a player's interest no matter how frequent their gaming is. See the
+            following for our most recent offers:
           </p>
 
           {/* Promotion Card Grid */}
@@ -86,8 +86,8 @@ const Promotion = () => {
             How to Claim Your Promotions
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
-            To make claims as a promotion in Panalobet is remarkably simple.
-            Here’s how you can take advantage of our exciting offers:
+            To make claims as a promotion in Bet88 is remarkably simple. Here’s
+            how you can take advantage of our exciting offers:
           </p>
 
           <div className="compartmentStackedLayout mb30">
@@ -97,9 +97,9 @@ const Promotion = () => {
                   1. Register an Account:
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
-                  Create a Panalobet account if you want to know the details of
-                  the promotion. Make sure that you are very keen when filling
-                  in various details especially when registering for the various{" "}
+                  Create a Bet88 account if you want to know the details of the
+                  promotion. Make sure that you are very keen when filling in
+                  various details especially when registering for the various{" "}
                   <span className="fontWeightBold colorSec">
                     online casinos
                   </span>{" "}
@@ -170,8 +170,8 @@ const Promotion = () => {
             Payment Methods and Security
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
-            At Panalobet, there are multiple safeguarded payment procedures
-            being offered to make your transactions extremely seamless.
+            At Bet88, there are multiple safeguarded payment procedures being
+            offered to make your transactions extremely seamless.
           </p>
           <div className="compartmentStackedLayout mb30">
             <SlideAnimation slideDuration={500}>
@@ -210,7 +210,7 @@ const Promotion = () => {
                   In rather bigger deals, bank transfers act as a stable means
                   of depositing and withdrawing money among{" "}
                   <span className="fontWeightBold colorSec">betting sites</span>
-                  . Get safe and swift transfers in and out of your Panalobet
+                  . Get safe and swift transfers in and out of your Bet88
                   account easily.
                 </p>
               </div>
@@ -248,7 +248,7 @@ const Promotion = () => {
             Security and Responsible Gaming
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
-            At Panalobet, your security and well-being are our top priorities:
+            At Bet88, your security and well-being are our top priorities:
           </p>
           <div className="compartmentStackedLayout mb60">
             <SlideAnimation slideDuration={500}>
@@ -301,8 +301,8 @@ const Promotion = () => {
                       />
                       <img
                         src="/assets/affiliate1.png"
-                        alt="PANALOBET"
-                        title="PANALOBET"
+                        alt="Bet88"
+                        title="Bet88"
                         class="img_fit"
                       />
                     </picture>
@@ -330,8 +330,8 @@ const Promotion = () => {
                       />
                       <img
                         src="/assets/affiliate2.png"
-                        alt="PANALOBET"
-                        title="PANALOBET"
+                        alt="Bet88"
+                        title="Bet88"
                         class="img_fit"
                       />
                     </picture>
@@ -362,8 +362,8 @@ const Promotion = () => {
                       />
                       <img
                         src="/assets/affiliate1.png"
-                        alt="PANALOBET"
-                        title="PANALOBET"
+                        alt="Bet88"
+                        title="Bet88"
                         class="img_fit"
                       />
                     </picture>
@@ -384,21 +384,19 @@ const Promotion = () => {
           </div>
 
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
-            Join Panalobet Today!
+            Join Bet88 Today!
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Are you willing to grab our excellent and special offers and bonuses
             section? Join the exciting world of{" "}
-            <span className="fontWeightBold colorSec">
-              Panalobet online gaming
-            </span>{" "}
+            <span className="fontWeightBold colorSec">Bet88 online gaming</span>{" "}
             by signing up with us today. Discover the game types, get your
             bonuses, and find out what fun and rewards are in store for you.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1">
             Don’t miss out on the chance to maximize your play and boost your
             chances of winning. Sign up now and dive into a world of fantastic
-            promotions at Panalobet!
+            promotions at Bet88!
           </p>
         </div>
       </section>

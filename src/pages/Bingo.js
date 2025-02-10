@@ -17,13 +17,12 @@ const Bingo = () => {
   const tablesCardRefs = usePopAnimation();
 
   useEffect(() => {
-    document.title =
-      "Play Online Bingo at Panalobet | Exciting Games & Big Wins!";
+    document.title = "Play Online Bingo at Bet88 | Exciting Games & Big Wins!";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Join Panalobet now, play Panalobet online bingo which offers you the best bingo gaming experience in the Philippines. Play exciting bingo games, win big prizes."
+        "Join Bet88 now, play Bet88 online bingo which offers you the best bingo gaming experience in the Philippines. Play exciting bingo games, win big prizes."
       );
     }
   }, []);
@@ -34,43 +33,43 @@ const Bingo = () => {
       <section className="singleCompartment ptb60 plr5perc overflowXHorizontalHidden mt150spec">
         <div className="compartmentStackedLayout">
           <h1 className="heading1 colorPri pb30">
-            Discover the Ultimate Bingo Adventure at Panalobet!
+            Discover the Ultimate Bingo Adventure at Bet88!
           </h1>
           <div className="bgGlassMorphism p20 borderRadius1 mb60">
             <p className="descriptions textAlignmentLeft mb10 colorReg1">
               Welcome to the world’s premier{" "}
               <span className="fontWeightBold colorSec">online bingo site</span>{" "}
-              – Panalobet online bingo which offers you the best bingo gaming
+              – Bet88 online bingo which offers you the best bingo gaming
               experience in the Philippines. Whether you are a professional
-              player or a beginner, Panalobet has numerous bingo games that are
-              full of interesting features, perks, and bonuses and with a
-              practical interface that guarantees fun for hours.
+              player or a beginner, Bet88 has numerous bingo games that are full
+              of interesting features, perks, and bonuses and with a practical
+              interface that guarantees fun for hours.
             </p>
             <p className="descriptions textAlignmentLeft colorReg1">
               Bingo does not necessarily entail someone winning a game, it is
               also a social activity where one can make new friends, risks, and
-              even earn huge profits. Panalobet has upped the stakes when it
-              comes to bingo by introducing varied bingo rooms, dynamic bingo
-              play opportunities, and enormous bingo bonuses.
+              even earn huge profits. Bet88 has upped the stakes when it comes
+              to bingo by introducing varied bingo rooms, dynamic bingo play
+              opportunities, and enormous bingo bonuses.
             </p>
           </div>
 
           <div className="compartmentStackedLayout">
             <div className="compartmentStackedLayoutLeft">
               <h2 className="heading2 textAlignmentLeft colorSec pb30">
-                Why Panalobet Stands Out for Online Bingo
+                Why Bet88 Stands Out for Online Bingo
               </h2>
               <p className="descriptions textAlignmentLeft colorReg1 pb20">
-                Panalobet has one of the best bingo platforms online because we
-                have taken our time to offer multiple bingo games, different
-                bingo themes, and bingo bonuses perfect for different bingo
+                Bet88 has one of the best bingo platforms online because we have
+                taken our time to offer multiple bingo games, different bingo
+                themes, and bingo bonuses perfect for different bingo
                 enthusiasts. Whether the player enjoys only the basic bingo
                 games or would like more enhanced games with extra benefits, our
                 site offers a line of games that will meet the player’s
                 expectations.
               </p>
               <h3 className="heading3 textAlignmentLeft colorTer pb20 ml100">
-                What sets Panalobet apart:
+                What sets Bet88 apart:
               </h3>
             </div>
             <div className="dualCompartment6040">
@@ -138,8 +137,8 @@ const Bingo = () => {
                     />
                     <img
                       src="/assets/slotImage1.png"
-                      alt="Panalobet"
-                      title="Panalobet"
+                      alt="Bet88"
+                      title="Bet88"
                       class="img_fit"
                     />
                   </picture>
@@ -149,7 +148,7 @@ const Bingo = () => {
             <div className="compartmentStackedLayoutLeft">
               <p className="descriptions textAlignmentLeft colorReg1">
                 Now that we’ve discussed what bingo is, let’s take a closer look
-                at bingo at Panalobet and why you should come to play with
+                at bingo at Bet88 and why you should come to play with
                 us!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </p>
             </div>
@@ -163,8 +162,8 @@ const Bingo = () => {
             A Wide Range of Bingo Games to Suit Every Player
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
-            At Panalobet, we know that bingo games can be quite diverse in terms
-            of the preferences and tastes of every player. That is why you will
+            At Bet88, we know that bingo games can be quite diverse in terms of
+            the preferences and tastes of every player. That is why you will
             find that we have a good lineup of bingo games with varieties that
             suit everyone’s desires and abilities. They offer classic 75-ball
             bingo along with the more quickly moving 90-ball bingo type that is
@@ -193,10 +192,10 @@ const Bingo = () => {
             Interactive Bingo Rooms with Live Chat
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
-            At Panalobet, we know that bingo should not be a lonely game nor
-            should it be a silent one. That is why we provide bingo rooms where
-            you can interact with other players as you play the bingo games. Get
-            to learn people, make friends, and feel the joy of each victory you
+            At Bet88, we know that bingo should not be a lonely game nor should
+            it be a silent one. That is why we provide bingo rooms where you can
+            interact with other players as you play the bingo games. Get to
+            learn people, make friends, and feel the joy of each victory you
             make. Our chat moderators act as the hosts and enforce friendly
             images and tone, which make those who visit our site to play bingo
             feel like they are part of a big family.
@@ -212,11 +211,11 @@ const Bingo = () => {
             Exciting Promotions and Bonuses for Bingo Players
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
-            Panalobet has a generous bonus and promotions it offers to its
-            players to enhance your bingo experience. We have many options on
-            how to increase your chances of winning including gifts for
-            first-time players, and bingo promotions. Here are some of the top
-            promotions available to bingo players at Panalobet:
+            Bet88 has a generous bonus and promotions it offers to its players
+            to enhance your bingo experience. We have many options on how to
+            increase your chances of winning including gifts for first-time
+            players, and bingo promotions. Here are some of the top promotions
+            available to bingo players at Bet88:
           </p>
 
           <div className="compartmentStackedLayout mb30">
@@ -227,9 +226,9 @@ const Bingo = () => {
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
                   Furthermore, there is entertainment mixed with the possibility
-                  of earning big money with Panalobet. In as much as luck
-                  governs your earnings, mathematics works hand in hand to
-                  determine the winnings’ probabilities.
+                  of earning big money with Bet88. In as much as luck governs
+                  your earnings, mathematics works hand in hand to determine the
+                  winnings’ probabilities.
                 </p>
               </div>
             </SlideAnimation>
@@ -240,7 +239,7 @@ const Bingo = () => {
                   Welcome Bonus for New Players
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
-                  New customers at Panalobet can claim a 100%{" "}
+                  New customers at Bet88 can claim a 100%{" "}
                   <span className="fontWeightBold colorSec">Welcome Bonus</span>{" "}
                   on their first deposit that will allow them to play bingo and
                   other games at the site. This way, you will have some cash to
@@ -271,8 +270,8 @@ const Bingo = () => {
                   Loyalty Rewards and VIP Program
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
-                  Players at Panalobet are more special to us, and that is why
-                  we have given our players an opportunity to accumulate points
+                  Players at Bet88 are more special to us, and that is why we
+                  have given our players an opportunity to accumulate points
                   from every game they play. Earn points to be redeemed for
                   special bonuses, special VIP privileges, and even free spins
                   at our band slot machines.
@@ -302,12 +301,12 @@ const Bingo = () => {
             Safe and Secure Transactions with GCash
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
-            Establishing the company's focus on efficiency, Panalobet aims to
+            Establishing the company's focus on efficiency, Bet88 aims to
             deliver a safe gambling environment. That is why we provide reliable
             payment methods like GCash which enable participants in the
             Philippines to make payments swiftly and securely. For banking with
-            Panalobet to deposit funds for bingo games or to cash out your
-            winnings, Panalobet offers swift, secure and clear transactions.
+            Bet88 to deposit funds for bingo games or to cash out your winnings,
+            Bet88 offers swift, secure and clear transactions.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             We also provide other easy payment methods such as bank transfer
@@ -316,10 +315,10 @@ const Bingo = () => {
           </p>
 
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
-            How to Play Online Bingo at Panalobet: A Step-by-Step Guide
+            How to Play Online Bingo at Bet88: A Step-by-Step Guide
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
-            Playing bingo at Panalobet comes with easy steps and it’s still
+            Playing bingo at Bet88 comes with easy steps and it’s still
             enjoyable if it is the first time to play bingo. Follow these simple
             steps to get started:
           </p>
@@ -331,8 +330,8 @@ const Bingo = () => {
                   Step 1: Sign Up for an Account
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
-                  If you want to play bingo at Panalobet you must first register
-                  an account at the casino and this can be done easily. No, it’s
+                  If you want to play bingo at Bet88 you must first register an
+                  account at the casino and this can be done easily. No, it’s
                   simple – our registration page lets you enter your personal
                   and business information and start enjoying our services right
                   away. Do not forget to take your welcome bonus to get some
@@ -403,7 +402,7 @@ const Bingo = () => {
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             Here are some helpful tips to make the most of your time playing
-            bingo at Panalobet:
+            bingo at Bet88:
           </p>
           <div className="compartmentStackedLayout mb30">
             <SlideAnimation slideDuration={500}>
@@ -478,11 +477,11 @@ const Bingo = () => {
           </div>
 
           <h2 className="heading2 textAlignmentLeft colorSec pb30">
-            Why Play Bingo at Panalobet?
+            Why Play Bingo at Bet88?
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
-            Panalobet delivers a package bingo solution that is unbeatable in
-            the Philippines market. Offering a vast choice of{" "}
+            Bet88 delivers a package bingo solution that is unbeatable in the
+            Philippines market. Offering a vast choice of{" "}
             <span className="fontWeightBold colorSec">casino games</span>,
             fantastic bonuses, and prompt responses to every player’s question,
             our website guarantees you’ll have a good time. In addition, giving
@@ -490,11 +489,11 @@ const Bingo = () => {
             to have fun and make more money.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1">
-            So why wait? Currently you can sign up at Panalobet and join the
+            So why wait? Currently you can sign up at Bet88 and join the
             greatest number of enthusiasts in playing online bingo. So
             regardless of whether you are playing for that extra fun with your
-            friends or going straight for the big jackpot, Panalobet has what
-            you need for some incredible and exciting{" "}
+            friends or going straight for the big jackpot, Bet88 has what you
+            need for some incredible and exciting{" "}
             <span className="fontWeightBold colorSec">
               casino gaming experience
             </span>

@@ -18,7 +18,7 @@ const Homepage = () => {
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Read Panalobet's blogs related to Sports betting, Online Casino, Live Casino, Bonus, Promotion and more!"
+        "Read Bet88's blogs related to Sports betting, Online Casino, Live Casino, Bonus, Promotion and more!"
       );
     }
   }, []);
@@ -29,11 +29,11 @@ const Homepage = () => {
       <section className="singleCompartment ptb60 plr5perc overflowXHorizontalHidden mt150spec">
         <div className="compartmentStackedLayout mb60">
           <h1 className="heading1 colorPri pb30">
-            Panalobet Blog: Where the Action Happens
+            Bet88 Blog: Where the Action Happens
           </h1>
           <div className="bgGlassMorphism p20 borderRadius1">
             <p className="descriptions textAlignmentLeft colorReg1">
-              <span className="fontWeightBold colorSec">Panalobet</span> is a
+              <span className="fontWeightBold colorSec">Bet88</span> is a
               trusted online casino and sports betting platform{" "}
               <span className="fontWeightBold colorSec">
                 licensed by PAGCOR
@@ -42,7 +42,7 @@ const Homepage = () => {
               pioneer in mobile gaming, offering a wide variety of casino games
               such as slots, live dealer games, and more, all accessible through
               their user-friendly mobile website and app. Whether you're at
-              home, work, or traveling, Panalobet provides a thrilling and
+              home, work, or traveling, Bet88 provides a thrilling and
               convenient online casino experience.
             </p>
           </div>
