@@ -55,7 +55,7 @@ const BlogCard = React.forwardRef(
       href={link}
       ref={ref}
       target="_blank"
-      className="cardGridBlog popOut compartmentStackedLayout boxShadow1 borderRadius2">
+      className="cardGridBlog compartmentStackedLayout boxShadow1 borderRadius2">
       {image && ( // Conditional rendering for image section
         <picture className="img_fit">
           <source media="(min-width: 768px)" srcSet={image} />

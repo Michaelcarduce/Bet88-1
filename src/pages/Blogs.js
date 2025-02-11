@@ -1,8 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect, useState } from "react";
+// import client from "../api/SanityClient.js";
 import "../styles/global.css";
 import "../styles/static.css";
 import Header from "../components/Header.js";
-import blogs from "../miscellaneous/blogs/blogsCarouselContents.js";
 import BlogCard from "../miscellaneous/blogs/blogCard.js";
 import usePopAnimation from "../hooks/usePopAnimation.js";
 import Footer from "../components/Footer.js";
@@ -10,9 +10,32 @@ import Footer from "../components/Footer.js";
 const Homepage = () => {
   const blogCardRefs = usePopAnimation();
   // Sort blogs by id in descending order (newest to oldest)
-  const sortedBlogs = [...blogs].sort((a, b) => b.id - a.id);
+  // const sortedBlogs = [...blogs].sort((a, b) => b.id - a.id);
+
+  const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
+    fetch(
+      "https://7ntkp20u.api.sanity.io/v2022-03-07/data/query/production?query=*%5B_type+%3D%3D+%22Bet88Posts%22+%5D%7B+%0A++++_id%2C+%0A++++title%2C+%0A++++slug%2C+%0A++++description%2C+%0A++++%22featuredImage%22%3A+featuredImage.asset-%3Eurl+%0A%7D"
+    )
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        // Assuming the relevant data is in 'data.result' (standard Sanity response)
+        setPosts(data.result);
+        setLoading(false);
+      })
+      .catch((error) => {
+        setError(error);
+        setLoading(false);
+      });
+
     document.title = "Online Casino Update, News & Blogs";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
@@ -22,6 +45,16 @@ const Homepage = () => {
       );
     }
   }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
+
+  console.log(posts);
 
   return (
     <div>
@@ -50,11 +83,11 @@ const Homepage = () => {
 
         {/* Blog Card Grid */}
         <div className="flexboxGrid">
-          {sortedBlogs.map((blogs, index) => (
+          {posts?.map((blogs, index) => (
             <BlogCard
-              key={blogs.id}
+              key={blogs._id}
               ref={(el) => (blogCardRefs.current[index] = el)}
-              image={blogs.image}
+              image={blogs.featuredImage}
               title={
                 blogs.title.length > 40
                   ? `${blogs.title.substring(0, 40)} ...`
@@ -65,8 +98,7 @@ const Homepage = () => {
                   ? `${blogs.description.substring(0, 80)} ...`
                   : blogs.description
               }
-              link={blogs.link}
-              buttonText={blogs.buttonText}
+              link={`/blogs/${blogs.slug.current}`}
             />
           ))}
         </div>
