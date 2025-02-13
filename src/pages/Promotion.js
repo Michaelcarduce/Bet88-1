@@ -28,6 +28,16 @@ const Promotion = () => {
         "Are you willing to grab our excellent and special offers and bonuses section? Join the exciting world of Bet88 online Casino now!"
       );
     }
+
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) {
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/promotion");
+    } else {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/promotion");
+      document.head.appendChild(canonicalLink);
+    }
   }, []);
 
   return (
@@ -43,11 +53,21 @@ const Promotion = () => {
               Greetings at Bet88 – The Philippines’ favorite site for people who
               enjoy casinos online! Regardless if you’re a regular player or a
               beginner in the world of{" "}
-              <span className="fontWeightBold colorSec">online casinos</span>,
-              Bet88 is a perfect and fun guide through the world of{" "}
-              <span className="fontWeightBold colorSec">online gaming</span>.
-              Bet88 is the optimal option for those players who are in search of
-              a reliable and profitable online casino with a great number of
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                online casinos
+              </a>
+              , Bet88 is a perfect and fun guide through the world of{" "}
+              <a
+                href="https://bet88-casino.vip/live-casino"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                online gaming
+              </a>
+              . Bet88 is the optimal option for those players who are in search
+              of a reliable and profitable online casino with a great number of
               games, bonuses, and safe payment methods such as GCash.
             </p>
           </div>
@@ -100,9 +120,12 @@ const Promotion = () => {
                   Create a Bet88 account if you want to know the details of the
                   promotion. Make sure that you are very keen when filling in
                   various details especially when registering for the various{" "}
-                  <span className="fontWeightBold colorSec">
+                  <a
+                    href="https://bet88-casino.vip/slots"
+                    target="_blank"
+                    className="fontWeightBold anchorLink">
                     online casinos
-                  </span>{" "}
+                  </a>{" "}
                   so that you do not have any troubles when claiming your
                   rewards.
                 </p>
@@ -209,7 +232,12 @@ const Promotion = () => {
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
                   In rather bigger deals, bank transfers act as a stable means
                   of depositing and withdrawing money among{" "}
-                  <span className="fontWeightBold colorSec">betting sites</span>
+                  <a
+                    href="https://bet88-casino.vip/"
+                    target="_blank"
+                    className="fontWeightBold anchorLink">
+                    betting sites
+                  </a>
                   . Get safe and swift transfers in and out of your Bet88
                   account easily.
                 </p>
@@ -389,7 +417,12 @@ const Promotion = () => {
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Are you willing to grab our excellent and special offers and bonuses
             section? Join the exciting world of{" "}
-            <span className="fontWeightBold colorSec">Bet88 online gaming</span>{" "}
+            <a
+              href="https://bet88-casino.vip/promotion"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              Bet88 online gaming
+            </a>{" "}
             by signing up with us today. Discover the game types, get your
             bonuses, and find out what fun and rewards are in store for you.
           </p>

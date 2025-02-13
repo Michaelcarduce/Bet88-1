@@ -25,6 +25,16 @@ const Slots = () => {
         "Download Bet88 App and enjoy the best casino slots in the Philippines. Play anytime, anywhere and elevate your gaming adventure!"
       );
     }
+
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) {
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/slots");
+    } else {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/slots");
+      document.head.appendChild(canonicalLink);
+    }
   }, []);
 
   return (
@@ -63,11 +73,14 @@ const Slots = () => {
             <p className="descriptions textAlignmentLeft mb10 colorReg1">
               Welcome to the universe of luxury and fabulous gambling – discover
               the Best Limit{" "}
-              <span className="fontWeightBold colorSec">
-                Casino Slots in the Philippines for 2025
-              </span>
-              . For what reason can people accept such conditions if the
-              executive peak of online gaming is within reach? This guide
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                Casino Slots in the Philippines
+              </a>{" "}
+              for 2025 . For what reason can people accept such conditions if
+              the executive peak of online gaming is within reach? This guide
               reveals the best games that provide an excellent chance for
               impressive results, which is why high rollers should think twice.
               Nothing but the best should be given to you as you begin this
@@ -89,9 +102,14 @@ const Slots = () => {
             This is for the ego that you get to play privileged access to
             premium online casino games and these offer higher jackpots and
             higher limits. GAME lovers using{" "}
-            <span className="fontWeightBold colorSec">Bet88 Casino</span> will
-            be privileged to find a special package of high-limit slots that
-            enhances their gaming experience.
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              Bet88 Casino
+            </a>{" "}
+            will be privileged to find a special package of high-limit slots
+            that enhances their gaming experience.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             Get the best and specific services, bonuses, and more which are
@@ -127,13 +145,21 @@ const Slots = () => {
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Experience the thrill of the Best Limit{" "}
-            <span className="fontWeightBold colorSec">
+            <a
+              href="https://bet88-casino.vip/slots"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               Casino Slots in the Philippines
-            </span>{" "}
+            </a>{" "}
             for 2025. Given the kind of options that are available on the
             market, who wants to go for substandard items and services? In this
             guide, you will find the{" "}
-            <span className="fontWeightBold colorSec">best slot games</span>{" "}
+            <a
+              href="https://bet88-casino.vip/slots"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              best slot games
+            </a>{" "}
             that can be played online to ensure that you get an outstanding
             experience with mass-wave bonus offerings. In the same way, if you
             are aspiring for the highest levels of success, ordinary cannot be
@@ -169,7 +195,12 @@ const Slots = () => {
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             At Bet88, players can find different varieties of{" "}
-            <span className="fontWeightBold colorSec">online casino slots</span>{" "}
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              online casino slots
+            </a>{" "}
             with different options regarding the offers and odds of paybacks.
             Moreover, every spin gives an opportunity to a win, making the
             gaming experience at Bet88 engaging for both new bettors and those,
@@ -211,9 +242,12 @@ const Slots = () => {
             Start discovering the atmosphere of online casino slot games for
             real money at Bet88 – one of the most popular platforms for
             enthusiasts. About the{" "}
-            <span className="fontWeightBold colorSec">
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               Philippine casino online
-            </span>{" "}
+            </a>{" "}
             – The best online casino in the Philippines has a great choice of
             slots with different topics and interesting actions. Bet88 is the
             best platform that will help players spin the reels and spend time
@@ -244,9 +278,12 @@ const Slots = () => {
           </p>
           <p className="descriptions textAlignmentLeft colorReg1">
             Bet88 mobile has an enhanced variety of{" "}
-            <span className="fontWeightBold colorSec">
+            <a
+              href="https://bet88-casino.vip/slots"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               casino slot machines
-            </span>{" "}
+            </a>{" "}
             with great graphics, themes, and huge payouts. Whether you prefer
             traditional 3-reel slots or advanced 5-reel video options, Bet88
             offers you the extraordinary feeling of a real casino online. Make
@@ -266,11 +303,16 @@ const Slots = () => {
             <p className="descriptions textAlignmentLeft colorReg1">
               There are many slots reels and symbols available when you select
               the internet{" "}
-              <span className="fontWeightBold colorSec">casino sites</span> like
-              Bet88 for playing, especially in the Philippines and these symbols
-              are used to dictate the final results of the games. Knowledge of
-              these factors is crucial to improving gameplay and subsequently
-              raising the probability of success.
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                casino sites
+              </a>{" "}
+              like Bet88 for playing, especially in the Philippines and these
+              symbols are used to dictate the final results of the games.
+              Knowledge of these factors is crucial to improving gameplay and
+              subsequently raising the probability of success.
             </p>
           </div>
 
@@ -511,7 +553,12 @@ const Slots = () => {
             </p>
             <p className="descriptions textAlignmentLeft colorReg1 pb30">
               Learn more about the choices of{" "}
-              <span className="fontWeightBold colorSec">slots on Bet88</span>{" "}
+              <a
+                href="https://bet88-casino.vip/slots"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                slots on Bet88
+              </a>{" "}
               and enjoy luck and skill combined in a game. Welcome to the realm
               of reels as well as symbols – it is possible to hit the greatest
               prize with the following spin!
@@ -522,15 +569,23 @@ const Slots = () => {
             </h2>
             <p className="descriptions textAlignmentLeft colorReg1 pb30">
               Bet88 Casino is the best platform to play{" "}
-              <span className="fontWeightBold colorSec">
+              <a
+                href="https://bet88-casino.vip/slots"
+                target="_blank"
+                className="fontWeightBold anchorLink">
                 online casino slots
-              </span>{" "}
+              </a>{" "}
               since it provides players with an exceptional experience as they
               play these games and win good cash. Bet88 Casino has launched its
               operations with an official Curacao license and guarantees a safe
               space for entertainment. It presents a vast list of{" "}
-              <span className="fontWeightBold colorSec">online slots</span> so
-              that every slot has the potential to produce massive wins. By
+              <a
+                href="https://bet88-casino.vip/affiliate"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                online slots
+              </a>{" "}
+              so that every slot has the potential to produce massive wins. By
               specially designed navigation panel, the Bet88 Casino provides its
               users with easy and comfortable access to ultimate excitement and
               high payoffs. Head to the most exciting Bet88 Casino, where fun
@@ -660,9 +715,12 @@ const Slots = () => {
               straightforward and safe with their platform. Bet88 ensures the
               safety of your money through high encryption technology, allowing
               you to game{" "}
-              <span className="fontWeightBold colorSec">
+              <a
+                href="https://bet88-casino.vip/promotion"
+                target="_blank"
+                className="fontWeightBold anchorLink">
                 online casino games
-              </span>{" "}
+              </a>{" "}
               without concern. This commitment to ensuring a safe, hassle-free
               payment climate demonstrates how much the gaming hub truly cares
               about the delivery of excellent service.
@@ -690,9 +748,12 @@ const Slots = () => {
             </h2>
             <p className="descriptions textAlignmentLeft colorReg1 pb30">
               Many{" "}
-              <span className="fontWeightBold colorSec">
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
                 online casino slots
-              </span>{" "}
+              </a>{" "}
               can be played at Bet88 Casino since they include the best software
               providers on the market. Microgaming, NetEnt, and Play’n GO are
               company partners of Bet88 that guarantee players play the best
@@ -721,8 +782,13 @@ const Slots = () => {
             </p>
             <p className="descriptions textAlignmentLeft colorReg1">
               Bet88 can be considered as one of the many{" "}
-              <span className="fontWeightBold colorSec">online casinos</span>,
-              but it is necessary to point out that the service provides a lot
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                online casinos
+              </a>
+              , but it is necessary to point out that the service provides a lot
               more than games. Whether you’re a high-stakes slot player or if
               you’re searching for enormous bonuses, Bet88 Casino is where
               quality and excitement converge. Don’t wait any longer start your

@@ -25,6 +25,16 @@ const Bingo = () => {
         "Join Bet88 now, play Bet88 online bingo which offers you the best bingo gaming experience in the Philippines. Play exciting bingo games, win big prizes."
       );
     }
+
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) {
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/bingo");
+    } else {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/bingo");
+      document.head.appendChild(canonicalLink);
+    }
   }, []);
 
   return (
@@ -38,7 +48,12 @@ const Bingo = () => {
           <div className="bgGlassMorphism p20 borderRadius1 mb60">
             <p className="descriptions textAlignmentLeft mb10 colorReg1">
               Welcome to the world’s premier{" "}
-              <span className="fontWeightBold colorSec">online bingo site</span>{" "}
+              <a
+                href="https://bet88-casino.vip/bingo"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                online bingo site
+              </a>{" "}
               – Bet88 online bingo which offers you the best bingo gaming
               experience in the Philippines. Whether you are a professional
               player or a beginner, Bet88 has numerous bingo games that are full
@@ -240,7 +255,12 @@ const Bingo = () => {
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
                   New customers at Bet88 can claim a 100%{" "}
-                  <span className="fontWeightBold colorSec">Welcome Bonus</span>{" "}
+                  <a
+                    href="https://bet88-casino.vip/promotion"
+                    target="_blank"
+                    className="fontWeightBold anchorLink">
+                    Welcome Bonus
+                  </a>{" "}
                   on their first deposit that will allow them to play bingo and
                   other games at the site. This way, you will have some cash to
                   wager in our bingo rooms and can hopefully discover new games
@@ -482,11 +502,16 @@ const Bingo = () => {
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Bet88 delivers a package bingo solution that is unbeatable in the
             Philippines market. Offering a vast choice of{" "}
-            <span className="fontWeightBold colorSec">casino games</span>,
-            fantastic bonuses, and prompt responses to every player’s question,
-            our website guarantees you’ll have a good time. In addition, giving
-            secure transactions and fast payout through GCash, the main goal is
-            to have fun and make more money.
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              casino games
+            </a>
+            , fantastic bonuses, and prompt responses to every player’s
+            question, our website guarantees you’ll have a good time. In
+            addition, giving secure transactions and fast payout through GCash,
+            the main goal is to have fun and make more money.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1">
             So why wait? Currently you can sign up at Bet88 and join the
@@ -494,9 +519,12 @@ const Bingo = () => {
             regardless of whether you are playing for that extra fun with your
             friends or going straight for the big jackpot, Bet88 has what you
             need for some incredible and exciting{" "}
-            <span className="fontWeightBold colorSec">
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               casino gaming experience
-            </span>
+            </a>
             !
           </p>
         </div>

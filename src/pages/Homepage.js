@@ -29,6 +29,16 @@ const Homepage = () => {
         "Bet88 Casino is not just a casino but a place where players get a real-time, safe, and easy experience to play games in particular from the Philippines. Join now and get attractive welcome bonus!"
       );
     }
+
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) {
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip");
+    } else {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip");
+      document.head.appendChild(canonicalLink);
+    }
   }, []);
 
   return (

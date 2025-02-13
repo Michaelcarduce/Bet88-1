@@ -25,6 +25,22 @@ const FishingGames = () => {
         "Online fishing games is waiting for you at the Bet88 platform. Get ready to hook, fight, and win big in the ultimate fishing game!"
       );
     }
+
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) {
+      canonicalLink.setAttribute(
+        "href",
+        "https://bet88-casino.vip/fishing-games"
+      );
+    } else {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      canonicalLink.setAttribute(
+        "href",
+        "https://bet88-casino.vip/fishing-games"
+      );
+      document.head.appendChild(canonicalLink);
+    }
   }, []);
 
   return (
@@ -40,9 +56,12 @@ const FishingGames = () => {
               The world of online betting with the possibility of gambling and
               fishing games is waiting for you at the Bet88 platform. Bet88 is a
               new and entertaining market providing an approach to any{" "}
-              <span className="fontWeightBold colorSec">
+              <a
+                href="https://bet88-casino.vip/live-casino"
+                target="_blank"
+                className="fontWeightBold anchorLink">
                 online casino player
-              </span>{" "}
+              </a>{" "}
               with our stunning fish shooting games that are vibrant and full of
               life. Depending on the kind of bass you are targeting or the kind
               of fun you are looking forward to, one is assured of lots of fun.
@@ -60,9 +79,12 @@ const FishingGames = () => {
                 Fish shooting games are not only entertaining at Bet88 but also
                 visually appealing due to how we have sourced the games to meet
                 the clientèle. Our{" "}
-                <span className="fontWeightBold colorSec">
+                <a
+                  href="https://bet88-casino.vip/"
+                  target="_blank"
+                  className="fontWeightBold anchorLink">
                   live casino games
-                </span>{" "}
+                </a>{" "}
                 are developed by the best industry professionals, which means
                 that we offer pleasing graphics and sounds, non-troublesome
                 controls, and a number of features for different categories of
@@ -137,9 +159,12 @@ const FishingGames = () => {
               </h2>
               <p className="descriptions textAlignmentLeft colorReg1 pb10">
                 The{" "}
-                <span className="fontWeightBold colorSec">
+                <a
+                  href="https://bet88-casino.vip/fishing-games"
+                  target="_blank"
+                  className="fontWeightBold anchorLink">
                   fish shooting games
-                </span>{" "}
+                </a>{" "}
                 available at Bet88 are some of the best ones because of the
                 high-definition graphics. Both games take you to an energetic
                 world below water with flashy fish and lovely other aqua beings.
@@ -232,9 +257,12 @@ const FishingGames = () => {
               <p className="descriptions textAlignmentLeft colorReg1 pb30">
                 To ensure the highest quality gameplay, Bet88 partners with some
                 of the most respected game developers in the{" "}
-                <span className="fontWeightBold colorSec">
+                <a
+                  href="https://bet88-casino.vip/live-casino"
+                  target="_blank"
+                  className="fontWeightBold anchorLink">
                   online casino industry
-                </span>
+                </a>
                 . These providers are known for their innovation, unique game
                 mechanics, and cutting-edge designs, ensuring that Bet88 players
                 always have fresh content to enjoy. Some of our esteemed
@@ -316,7 +344,12 @@ const FishingGames = () => {
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             Fish shooting games are easy to understand and are incredibly
             entertaining to all those who really love playing{" "}
-            <span className="fontWeightBold colorSec">casino games online</span>
+            <a
+              href="https://bet88-casino.vip/slots"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              casino games online
+            </a>
             . Follow these simple steps to get started:
           </p>
           <div className="compartmentStackedLayout mb60">
@@ -341,9 +374,12 @@ const FishingGames = () => {
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1 pb10">
                   The{" "}
-                  <span className="fontWeightBold colorSec">
+                  <a
+                    href="https://bet88-casino.vip/fishing-games"
+                    target="_blank"
+                    className="fontWeightBold anchorLink">
                     fish shooting games
-                  </span>{" "}
+                  </a>
                   are specifically targeted to shooting fish whenever they are
                   in motion on the screen. The fish is point fish, where fishing
                   catches large fish to provide a certain amount of points, and
@@ -503,9 +539,12 @@ const FishingGames = () => {
                       If you are new to shooting fish online games, it is
                       advisable to wager low amounts to familiarize yourself
                       with the games. It will also help you to play{" "}
-                      <span className="fontWeightBold colorSec">
+                      <a
+                        href="https://bet88-casino.vip/promotion"
+                        target="_blank"
+                        className="fontWeightBold anchorLink">
                         casino games
-                      </span>{" "}
+                      </a>{" "}
                       and master strategies without putting much of your money
                       at stake.
                     </p>
@@ -647,9 +686,13 @@ const FishingGames = () => {
             Philippines!
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
-            <span className="fontWeightBold colorSec">
+            {" "}
+            <a
+              href="https://bet88-casino.vip/fishing-games"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               Fish shooting game lovers
-            </span>{" "}
+            </a>{" "}
             are in for a real treat because, at Bet88, we have the most vibrant
             and thrilling fish shooting games you can play online. Thanks to the
             great variety of games, bright images, and the dynamic character of
@@ -660,8 +703,13 @@ const FishingGames = () => {
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             So why wait?{" "}
-            <span className="fontWeightBold colorSec">Join Bet88</span> now to
-            register and own a chance to engage yourself to play with our
+            <a
+              href="https://bet88-casino.vip/affiliate"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              Join Bet88 now
+            </a>{" "}
+            to register and own a chance to engage yourself to play with our
             exciting high-risk fish shooting games. Exciting bonuses, excellent
             customer care, as well as several chances to strike it rich – your
             next shark is just behind the button!

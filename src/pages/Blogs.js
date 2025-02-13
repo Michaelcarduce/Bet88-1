@@ -44,6 +44,16 @@ const Homepage = () => {
         "Read Bet88's blogs related to Sports betting, Online Casino, Live Casino, Bonus, Promotion and more!"
       );
     }
+
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) {
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/blogs");
+    } else {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/blogs");
+      document.head.appendChild(canonicalLink);
+    }
   }, []);
 
   if (loading) {
@@ -66,11 +76,20 @@ const Homepage = () => {
           </h1>
           <div className="bgGlassMorphism p20 borderRadius1">
             <p className="descriptions textAlignmentLeft colorReg1">
-              <span className="fontWeightBold colorSec">Bet88</span> is a
-              trusted online casino and sports betting platform{" "}
-              <span className="fontWeightBold colorSec">
+              {" "}
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                Bet88
+              </a>{" "}
+              is a trusted online casino and sports betting platform{" "}
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
                 licensed by PAGCOR
-              </span>
+              </a>
               , the Philippine Amusement and Gaming Corporation. They are a
               pioneer in mobile gaming, offering a wide variety of casino games
               such as slots, live dealer games, and more, all accessible through

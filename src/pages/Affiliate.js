@@ -29,6 +29,16 @@ const Affiliate = () => {
         "Sign up for the Bet88 Affiliate Program now and receive huge revenue sharing just ensuring your players are active. Don’t miss the chance."
       );
     }
+
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) {
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/affiliate");
+    } else {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      canonicalLink.setAttribute("href", "https://bet88-casino.vip/affiliate");
+      document.head.appendChild(canonicalLink);
+    }
   }, []);
 
   return (
@@ -44,8 +54,13 @@ const Affiliate = () => {
               Do you love online gaming and would want to transform this passion
               into profit? Bet88 Affiliate is a perfect chance for you to earn
               money out of your passion for{" "}
-              <span className="fontWeightBold colorSec">online casinos</span>.
-              Is your company ready to rock affiliate marketing?
+              <a
+                href="https://bet88-casino.vip/"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                online casinos
+              </a>
+              . Is your company ready to rock affiliate marketing?
             </p>
             <p className="descriptions textAlignmentLeft colorReg1 pb10">
               This is your opportunity to immerse yourself in the wonderful and
@@ -53,21 +68,34 @@ const Affiliate = () => {
               affiliate of Bet88. If you have ever asked yourself how to pursue
               your passion while creating a profitable career for yourself then
               the{" "}
-              <span className="fontWeightBold colorSec">
+              <a
+                href="https://bet88-casino.vip/affiliate"
+                target="_blank"
+                className="fontWeightBold anchorLink">
                 Bet88 Affiliate Program
-              </span>{" "}
+              </a>{" "}
               is your getaway. It goes beyond a business relationship—it’s the
               way to make money from your passion for social gaming.
             </p>
             <p className="descriptions textAlignmentLeft colorReg1 pb10">
               Being an affiliate, you will be partnering with one of the oldest
               brands that are in the business of{" "}
-              <span className="fontWeightBold colorSec">online casinos</span>.
-              It is going to be your task if you are our Bet88 affiliate to
+              <a
+                href="https://bet88-casino.vip/live-casino"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                online casinos
+              </a>
+              . It is going to be your task if you are our Bet88 affiliate to
               bring out the best in gaming entertainment to those enthusiasts in
               this world. Affiliate programs at your service will help your
               passion for{" "}
-              <span className="fontWeightBold colorSec">casino games</span>
+              <a
+                href="https://bet88-casino.vip/slots"
+                target="_blank"
+                className="fontWeightBold anchorLink">
+                casino games
+              </a>{" "}
               become your profitable business.
             </p>
             <p className="descriptions textAlignmentLeft colorReg1">
@@ -129,8 +157,13 @@ const Affiliate = () => {
                 </h3>
                 <p className="descriptions textAlignmentLeft colorReg1">
                   As soon as the players you referred start playing{" "}
-                  <span className="fontWeightBold colorSec">Bet88 Casino</span>,
-                  then you shall be with instant commissions depending on the
+                  <a
+                    href="https://bet88-casino.vip/"
+                    target="_blank"
+                    className="fontWeightBold anchorLink">
+                    Bet88 Casino
+                  </a>
+                  , then you shall be with instant commissions depending on the
                   flow of the players. The commissions provided at Bet88 casino
                   are relatively small and you can make as much money as you
                   want. Your commissions will therefore depend on the number of
@@ -216,9 +249,12 @@ const Affiliate = () => {
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             That is why the{" "}
-            <span className="fontWeightBold colorSec">
+            <a
+              href="https://bet88-casino.vip/affiliate"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               Bet88 Affiliate Program
-            </span>{" "}
+            </a>{" "}
             is the best choice for secure and lucrative cooperation with
             affiliate programs for because of the perfect choice of commission,
             fast transactions, and security. Become a part of our team, and
@@ -230,19 +266,27 @@ const Affiliate = () => {
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             Discover what{" "}
-            <span className="fontWeightBold colorSec">Bet88 Casino</span> has to
-            offer, a world of gaming and fun for everyone online. Be it gaming
-            or an affiliate with a desire to look for more opportunities, then
-            our platform is ideal for you. Get the best slots, card, and table
+            <a
+              href="https://bet88-casino.vip/promotion"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              Bet88 Casino has to offer
+            </a>
+            , a world of gaming and fun for everyone online. Be it gaming or an
+            affiliate with a desire to look for more opportunities, then our
+            platform is ideal for you. Get the best slots, card, and table
             games, read about the current trends in the industry or simply find
             out all about Bet88.
           </p>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             For those people who are willing to get more involved, Bet88 has
             further opened a perfect chance via the{" "}
-            <span className="fontWeightBold colorSec">
+            <a
+              href="https://bet88-casino.vip/affiliate"
+              target="_blank"
+              className="fontWeightBold anchorLink">
               Bet88 Affiliate Program
-            </span>
+            </a>
             . With the click of a button, just like signing into an online
             account, Affiliates can actually open up this full wealth. To learn
             more about participating in the program, read our article on how to
@@ -307,8 +351,13 @@ const Affiliate = () => {
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
             The responsibility of any affiliate is to attract new users to
             download the Bet88 Casino App and explore the world of{" "}
-            <span className="fontWeightBold colorSec">online casinos</span>.
-            Therefore, the more players you attract and maintain, the higher
+            <a
+              href="https://bet88-casino.vip/live-casino"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              online casinos
+            </a>
+            . Therefore, the more players you attract and maintain, the higher
             your chance of earning huge money. Your rewards will increase as you
             retain more players and for a week-to-week commission of up to 42%
             of the gross net profit.
@@ -365,7 +414,13 @@ const Affiliate = () => {
             Bet88 Casino Customer Support
           </h2>
           <p className="descriptions textAlignmentLeft colorReg1 pb10">
-            <span className="fontWeightBold colorSec">Bet88 Casino</span>{" "}
+            {" "}
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              Bet88 Casino
+            </a>{" "}
             respects and values our customers as they are our main focus.
             Customer Support A Customer Support department is always on standby,
             round the clock to help both players and hybrids. One of the
@@ -377,9 +432,14 @@ const Affiliate = () => {
           <p className="descriptions textAlignmentLeft colorReg1 pb30">
             Even if you are an affiliate, you have a good opportunity to earn
             potential with Bet88{" "}
-            <span className="fontWeightBold colorSec">live Casino</span> because
-            we have potential shared profit we can make together. Being a
-            company that addresses issues of innovation, customers, and
+            <a
+              href="https://bet88-casino.vip/"
+              target="_blank"
+              className="fontWeightBold anchorLink">
+              live Casino
+            </a>{" "}
+            because we have potential shared profit we can make together. Being
+            a company that addresses issues of innovation, customers, and
             affiliation, Bet88 Casino establishes itself as a company to compete
             within the online gaming business. Sign up now and let us succeed
             side by side!
